@@ -1,0 +1,20 @@
+{
+  "config": "hybrid",
+  "description": "Dense + BM25 RRF, top-3, no filter",
+  "split": "test",
+  "top_k": 3,
+  "budget": 4800,
+  "filters": false,
+  "n": 5,
+  "hit1": 4,
+  "hit1_rate": 0.8,
+  "hit3": 4,
+  "hit3_rate": 0.8,
+  "mrr": 0.85,
+  "context_hit": 5,
+  "context_rate": 1.0,
+  "avg_context_chars": 4476,
+  "median_latency_ms": 31.4,
+  "llm_calls": 0,
+  "list_cost_usd": 0.0
+}

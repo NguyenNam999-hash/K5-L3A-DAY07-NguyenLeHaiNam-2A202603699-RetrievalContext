@@ -1,0 +1,20 @@
+{
+  "config": "dense_filter",
+  "description": "Dense + section filter inferred from explicit chapter mention",
+  "split": "dev",
+  "top_k": 3,
+  "budget": 2400,
+  "filters": true,
+  "n": 15,
+  "hit1": 9,
+  "hit1_rate": 0.6,
+  "hit3": 13,
+  "hit3_rate": 0.8667,
+  "mrr": 0.75,
+  "context_hit": 13,
+  "context_rate": 0.8667,
+  "avg_context_chars": 2000.7,
+  "median_latency_ms": 40.5,
+  "llm_calls": 0,
+  "list_cost_usd": 0.0
+}

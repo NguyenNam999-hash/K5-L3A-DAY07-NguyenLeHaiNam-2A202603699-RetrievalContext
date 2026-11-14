@@ -1,0 +1,212 @@
+[
+  {
+    "query_id": "ad-t01",
+    "group": "table",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "rationale": "Answer matches the expected value/region and every cited chunk contains the supporting evidence.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-t02",
+    "group": "table",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "rationale": "Answer matches the expected value/region and every cited chunk contains the supporting evidence.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-t03",
+    "group": "table",
+    "answerable": true,
+    "status": "abstain",
+    "passed": false,
+    "citation_support": [],
+    "rationale": "Agent abstained on an answerable question; advanced grading requires a correct, cited answer.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-t04",
+    "group": "table",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "rationale": "Answer matches the expected value/region and every cited chunk contains the supporting evidence.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-i01",
+    "group": "image",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "rationale": "Answer matches the expected value/region and every cited chunk contains the supporting evidence.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-i02",
+    "group": "image",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "rationale": "Answer matches the expected value/region and every cited chunk contains the supporting evidence.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-c01",
+    "group": "chart",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "rationale": "Answer matches the expected value/region and every cited chunk contains the supporting evidence.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-c02",
+    "group": "chart",
+    "answerable": true,
+    "status": "abstain",
+    "passed": false,
+    "citation_support": [],
+    "rationale": "Agent abstained on an answerable question; advanced grading requires a correct, cited answer.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-x01",
+    "group": "text",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "rationale": "Answer matches the expected value/region and every cited chunk contains the supporting evidence.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-x02",
+    "group": "text",
+    "answerable": true,
+    "status": "abstain",
+    "passed": false,
+    "citation_support": [],
+    "rationale": "Agent abstained on an answerable question; advanced grading requires a correct, cited answer.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-x03",
+    "group": "text",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "rationale": "Answer matches the expected value/region and every cited chunk contains the supporting evidence.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-x04",
+    "group": "text",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citation_support": [
+      true
+    ],
+    "rationale": "Answer matches the expected value/region and every cited chunk contains the supporting evidence.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-x05",
+    "group": "text",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "rationale": "Answer matches the expected value/region and every cited chunk contains the supporting evidence.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-m01",
+    "group": "multi_hop",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citation_support": [
+      true,
+      true,
+      true
+    ],
+    "rationale": "Answer matches the expected value/region and every cited chunk contains the supporting evidence.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "ad-m02",
+    "group": "multi_hop",
+    "answerable": true,
+    "status": "answered",
+    "passed": true,
+    "citation_support": [
+      true,
+      true
+    ],
+    "rationale": "Answer matches the expected value/region and every cited chunk contains the supporting evidence.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "au01",
+    "group": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "passed": true,
+    "citation_support": [],
+    "rationale": "Abstained without unsupported claims.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "au02",
+    "group": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "passed": true,
+    "citation_support": [],
+    "rationale": "Abstained without unsupported claims.",
+    "reviewer": "AI draft; student verification pending"
+  },
+  {
+    "query_id": "au03",
+    "group": "unanswerable",
+    "answerable": false,
+    "status": "abstain",
+    "passed": true,
+    "citation_support": [],
+    "rationale": "Abstained without unsupported claims.",
+    "reviewer": "AI draft; student verification pending"
+  }
+]

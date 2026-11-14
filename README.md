@@ -2,9 +2,54 @@
 
 **Bài cá nhân · Python 3.11+ · tiếp nối Day 6**
 
-Dùng embedding và vector store từ Day 6 để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
+Dùng embedding và vector store từ Day 6 [K5-L3-Day06-NguyenLeHaiNam-DataIngestionEngineering](../K5-L3-Day06-NguyenLeHaiNam-DataIngestionEngineering) để xây một agent biết tìm bằng chứng, trả lời có nguồn và nhận biết khi không đủ thông tin. Bạn tự chọn kiến trúc, số tool và cách tổ chức retrieval.
 
 > **Tùy chọn:** [Gợi ý dùng AI để lập trình](AGENT_SETUP.md) giúp bạn làm lab; phần này không bắt buộc và không tính điểm.
+
+## Bài làm — tóm tắt
+
+Solution nằm ở `src/`, dùng **Day 6 chiến lược C** (180 chunk, pgvector,
+`BAAI/bge-base-en-v1.5` 768 chiều) và agent `deepseek-v4.1-flash`.
+
+- **Benchmark:** 24 câu (`benchmark/questions.json`): dev 15+2, test 5+2; test mới, không
+  dùng lại `q16–q20` Day 6.
+- **Retrieval:** TF-IDF, dense pgvector, BM25, hybrid RRF, dense/hybrid + section filter,
+  hybrid + filter + LLM rerank. Dev chốt **hybrid + filter + rerank** (15/15 Hit@3);
+  test 5/5 Hit@1, 5/5 Hit@3, 5/5 context.
+- **Agent:** tool `search`, `get_neighbors`, `list_sections`, `finalize`; citation phải
+  nằm trong context và xuất hiện trong answer; thiếu evidence thì abstain. Trace đầy đủ
+  trong `results/agent/`.
+- **Kết quả:** retrieval dev/test, agent dev/test, nhãn nháp và phân tích lỗi ở
+  `results/analysis.md`; báo cáo ở
+  `report/individual/2A202603699_NguyenLeHaiNam.md`.
+- **Advanced:** World Bank *Global Economic Prospects, June 2024* (220 trang, CC BY 3.0
+  IGO), 359 chunk text/table/chart/image, benchmark 30 test (24 answerable + 6 thiếu
+  evidence). Test đạt **28/30 = 93,3%** (ngưỡng 90%); trace/nhãn/phân tích ở
+  `advanced/`. PDF không commit; tải bằng `advanced/scripts/fetch_document.py`.
+- **Lưu ý:** nhãn grounded/citation/abstention do AI soạn nháp từ trace; sinh viên cần đọc
+  lại. Test đã chốt hash trong `results/selection.json` trước khi chạy.
+
+Chạy nhanh:
+
+```bash
+python3.11 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python scripts/check_setup.py
+.venv/bin/python scripts/export_day6.py
+.venv/bin/python benchmark/verify_benchmark.py
+.venv/bin/python -m src.evaluate_retrieval --split dev
+.venv/bin/python -m src.run_agent_benchmark --split dev --config selected
+.venv/bin/python -m unittest discover -s tests -v
+
+# Advanced (220-page report; PDF is downloaded and verified, not committed)
+.venv/bin/python advanced/scripts/fetch_document.py
+.venv/bin/python advanced/scripts/extract_document.py
+.venv/bin/python advanced/scripts/build_index.py
+.venv/bin/python advanced/scripts/verify_benchmark.py
+.venv/bin/python advanced/scripts/run_agent.py --split dev --config selected
+.venv/bin/python advanced/scripts/run_agent.py --split test --config selected
+.venv/bin/python advanced/scripts/build_reviews.py --config selected --split test
+```
 
 ## Bài cần làm
 

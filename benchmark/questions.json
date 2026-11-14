@@ -1,0 +1,362 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "type": "direct",
+    "question": "What was on the little three-legged table that Alice came upon?",
+    "expected_answer": "a tiny golden key",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 2,
+        "evidence": "Suddenly she came upon a little three-legged table, all made of solid glass; there was nothing on it except a tiny golden key"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "How deep was the pool formed by Alice's tears?",
+    "expected_answer": "About four inches deep",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 4,
+        "evidence": "shedding gallons of tears, until there was a large pool all round her, about four inches deep and reaching half down the hall."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "type": "direct",
+    "question": "According to the Dodo, what would be the best thing to get them dry?",
+    "expected_answer": "A Caucus-race",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 7,
+        "evidence": "the best thing to get us dry would be a Caucus-race."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "According to Chapter IV - The Rabbit Sends in a Little Bill, why did the Rabbit’s attempt to open the door fail?",
+    "expected_answer": "The door opened inwards and Alice’s elbow was pressed hard against it.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 11,
+        "evidence": "Presently the Rabbit came up to the door, and tried to open it; but, as the door opened inwards, and Alice’s elbow was pressed hard against it, that attempt proved a failure."
+      }
+    ],
+    "answerable": true,
+    "filter": {
+      "section": "Chapter IV - The Rabbit Sends in a Little Bill"
+    }
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "type": "conditional",
+    "question": "If Alice saw a good opportunity to escape from the puppy, what did she do?",
+    "expected_answer": "She set off at once and ran until she was tired and out of breath.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 13,
+        "evidence": "This seemed to Alice a good opportunity for making her escape; so she set off at once, and ran till she was quite tired and out of breath, and till the puppy’s bark sounded quite faint in the distance."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "type": "direct",
+    "question": "According to the Caterpillar, what will one side of the mushroom do?",
+    "expected_answer": "Make you grow taller",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 15,
+        "evidence": "One side will make you grow taller, and the other side will make you grow shorter."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What made Alice decide that the creature coming out of the wood was a footman rather than a fish?",
+    "expected_answer": "He was wearing livery.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 17,
+        "evidence": "(she considered him to be a footman because he was in livery: otherwise, judging by his face only, she would have called him a fish)"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "type": "direct",
+    "question": "In Chapter VI - Pig and Pepper, what does Alice think it would be murder to do?",
+    "expected_answer": "leave it behind",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 19,
+        "evidence": "they’re sure to kill it in a day or two: wouldn’t it be murder to leave it behind?"
+      }
+    ],
+    "answerable": true,
+    "filter": {
+      "section": "Chapter VI - Pig and Pepper"
+    }
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "type": "conditional",
+    "question": "If the Hatter's watch is two days wrong, what does he say would not suit the works?",
+    "expected_answer": "butter",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 21,
+        "evidence": "“Two days wrong!” sighed the Hatter. “I told you butter wouldn’t suit the works!”"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "type": "direct",
+    "question": "In the croquet game, what were the balls?",
+    "expected_answer": "live hedgehogs",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 25,
+        "evidence": "the balls were live hedgehogs, the mallets live flamingoes"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What did Alice propose should be done to settle the disagreement over the Cheshire Cat?",
+    "expected_answer": "Ask the Duchess about it.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 27,
+        "evidence": "Alice could think of nothing else to say but “It belongs to the Duchess: you’d better ask _her_ about it.”"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "type": "conditional",
+    "question": "In Chapter IX - The Mock Turtle’s Story, if Alice were a Duchess, what would she refuse to have in her kitchen at all?",
+    "expected_answer": "pepper",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 28,
+        "evidence": "“When _I’m_ a Duchess,” she said to herself, (not in a very hopeful tone though), “I won’t have any pepper in my kitchen _at all_."
+      }
+    ],
+    "answerable": true,
+    "filter": {
+      "section": "Chapter IX - The Mock Turtle’s Story"
+    }
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "type": "direct",
+    "question": "What does the Mock Turtle say they can do without when trying the first figure?",
+    "expected_answer": "lobsters",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 31,
+        "evidence": "“Come, let’s try the first figure!” said the Mock Turtle to the Gryphon. “We can do without lobsters, you know. Which shall sing?”"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "type": "paraphrase",
+    "question": "What two items was the White Rabbit holding while standing near the King?",
+    "expected_answer": "a trumpet and a scroll of parchment",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 34,
+        "evidence": "near the King was the White Rabbit, with a trumpet in one hand, and a scroll of parchment in the other."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "type": "conditional",
+    "question": "If the Knave did not sign the verses, what did the King say that does to the matter?",
+    "expected_answer": "It only makes the matter worse.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 38,
+        "evidence": "“If you didn’t sign it,” said the King, “that only makes the matter worse."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "u01",
+    "split": "dev",
+    "question": "How old is Alice?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The narrative never states Alice's age.",
+    "absence_checks": [
+      "Alice.{0,40}(is|was)\\s+(seven|eight|nine|ten|eleven|twelve)\\s+years\\s+old",
+      "Alice'?s\\s+age"
+    ]
+  },
+  {
+    "id": "u02",
+    "split": "dev",
+    "question": "What is the Queen of Hearts' first name?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Only the title 'Queen of Hearts' is used; no given name appears.",
+    "absence_checks": [
+      "Queen\\s+of\\s+Hearts.{0,30}(named|called)",
+      "Queen[^.]{0,30}(first|given)\\s+name"
+    ]
+  },
+  {
+    "id": "t01",
+    "split": "test",
+    "type": "direct",
+    "question": "In the pool of tears, what does Alice say is the capital of Paris while reciting her geography lesson?",
+    "expected_answer": "London.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 5,
+        "evidence": "London is the capital of Paris, and Paris is the capital of Rome"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "t02",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "According to the creatures outside the house, who is supposed to go down the chimney?",
+    "expected_answer": "Bill.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 12,
+        "evidence": "Who’s to go down the chimney?—Nay, _I_ shan’t! _You_ do it!—_That_ I won’t, then!—Bill’s to go down"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "t03",
+    "split": "test",
+    "type": "direct",
+    "question": "In Chapter VII - A Mad Tea-Party, what were the names of the three little sisters in the Dormouse's story?",
+    "expected_answer": "Elsie, Lacie, and Tillie.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 23,
+        "evidence": "their names were Elsie, Lacie, and Tillie"
+      }
+    ],
+    "filter": {
+      "section": "Chapter VII - A Mad Tea-Party"
+    },
+    "answerable": true
+  },
+  {
+    "id": "t04",
+    "split": "test",
+    "type": "paraphrase",
+    "question": "Where is the Mock Turtle sitting when Alice and the Gryphon first see him?",
+    "expected_answer": "On a little ledge of rock.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 30,
+        "evidence": "sitting sad and lonely on a little ledge of rock"
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "t05",
+    "split": "test",
+    "type": "direct",
+    "question": "How do the officers of the court suppress the guinea-pig that cheers?",
+    "expected_answer": "They put it head first into a canvas bag tied at the mouth and sit on it.",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 36,
+        "evidence": "They had a large canvas bag, which tied up at the mouth with strings: into this they slipped the guinea-pig, head first, and then sat upon it."
+      }
+    ],
+    "answerable": true
+  },
+  {
+    "id": "u03",
+    "split": "test",
+    "question": "What name does the Duchess give her baby?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The baby is never named; it is described as a baby and later becomes a pig.",
+    "absence_checks": [
+      "baby.{0,30}(named|called)",
+      "name[^.]{0,30}baby"
+    ]
+  },
+  {
+    "id": "u04",
+    "split": "test",
+    "question": "How many years did the Mock Turtle spend at school?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The Mock Turtle describes his school and subjects but never states a duration in years.",
+    "absence_checks": [
+      "(school|education).{0,60}\\d+\\s+years",
+      "\\d+\\s+years.{0,60}(school|education)"
+    ]
+  }
+]

@@ -9,3 +9,11 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Rebuildable local snapshot / advanced index; source PDF is downloaded by script
+data/day6/vectors_c.npz
+data/day6/vectors_c_ids.json
+advanced/source/*.pdf
+advanced/index/
+advanced/cache/
+advanced/renders/

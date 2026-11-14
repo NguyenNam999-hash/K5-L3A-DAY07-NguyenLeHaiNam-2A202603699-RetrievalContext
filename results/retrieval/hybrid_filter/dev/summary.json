@@ -1,0 +1,20 @@
+{
+  "config": "hybrid_filter",
+  "description": "Hybrid RRF + section filter, top-5",
+  "split": "dev",
+  "top_k": 5,
+  "budget": 4800,
+  "filters": true,
+  "n": 15,
+  "hit1": 13,
+  "hit1_rate": 0.8667,
+  "hit3": 14,
+  "hit3_rate": 0.9333,
+  "mrr": 0.9022,
+  "context_hit": 15,
+  "context_rate": 1.0,
+  "avg_context_chars": 4373.6,
+  "median_latency_ms": 29.9,
+  "llm_calls": 0,
+  "list_cost_usd": 0.0
+}

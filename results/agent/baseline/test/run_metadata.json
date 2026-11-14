@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-11-14T09:28:03.226316+00:00",
+  "config": "baseline",
+  "split": "test",
+  "questions": 7,
+  "agent": {
+    "model": "deepseek-v4.1-flash",
+    "max_searches": 2,
+    "max_steps": 5,
+    "top_k": 3,
+    "budget": 2400,
+    "enable_filter": false,
+    "enable_neighbors": false
+  },
+  "retrieval": {
+    "name": "dense",
+    "description": "BGE + pgvector cosine, top-3, no filter",
+    "top_k": 3,
+    "budget": 2400
+  },
+  "chunks": 180,
+  "wall_seconds": 93.144,
+  "llm": {
+    "model": "deepseek-v4.1-flash",
+    "calls": 21,
+    "usage": {
+      "prompt_tokens": 37737,
+      "completion_tokens": 3979,
+      "total_tokens": 41716,
+      "list_cost_usd": 0.004773909999999999
+    }
+  },
+  "errors": 0,
+  "statuses": {
+    "answered": 5,
+    "abstain": 2,
+    "error": 0
+  },
+  "tool_calls_total": 9,
+  "usage_total": {
+    "prompt_tokens": 37737,
+    "completion_tokens": 3979,
+    "total_tokens": 41716,
+    "list_cost_usd": 0.004773909999999999
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "pdf_pages": 220,
+  "processed_pages": 220,
+  "pages_with_text": 194,
+  "pages_with_tables": 31,
+  "pages_with_figures": 72,
+  "tables": 38,
+  "figures": 72,
+  "chunks": 359,
+  "chunks_by_type": {
+    "text": 249,
+    "table": 38,
+    "chart": 65,
+    "image": 7
+  },
+  "skipped": [],
+  "vision_calls_last_run": 0,
+  "vision_cache_reused_last_run": true,
+  "first_uncached_run": {
+    "vision_calls": 66,
+    "usage": {
+      "prompt_tokens": 64746,
+      "completion_tokens": 73768,
+      "total_tokens": 138514,
+      "list_cost_usd": 0.0539727
+    }
+  },
+  "elapsed_note": "Extraction is deterministic except vision descriptions, cached under advanced/cache/. The first uncached run made 66 vision calls; later runs reused the cache."
+}

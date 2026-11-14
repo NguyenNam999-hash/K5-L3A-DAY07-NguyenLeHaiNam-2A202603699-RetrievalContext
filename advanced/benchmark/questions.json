@@ -1,0 +1,784 @@
+[
+  {
+    "id": "ad-t01",
+    "split": "dev",
+    "group": "table",
+    "question": "According to Table 1.1, what is the real GDP growth forecast for the United States in 2024?",
+    "answerable": true,
+    "expected_answer": "2.5 percent.",
+    "gold": [
+      {
+        "page": 26,
+        "content_type": "table",
+        "evidence": "| United States | 5.8 | 1.9 | 2.5 | 2.5 | 1.8 | 1.8 |  | 0.9 | 0.1 |",
+        "table_id": "p026-t01",
+        "row": "United States",
+        "column": "2024f"
+      }
+    ]
+  },
+  {
+    "id": "ad-t02",
+    "split": "dev",
+    "group": "table",
+    "question": "In Table 2.1.1, what is the 2024 forecast for private consumption growth in East Asia and Pacific?",
+    "answerable": true,
+    "expected_answer": "6.2 percent.",
+    "gold": [
+      {
+        "page": 81,
+        "content_type": "table",
+        "evidence": "| Private consumption | 9.6 | 1.9 | 9.0 | 6.2 | 5.5 | 5.3 |  | 0.3 | 0.1 |",
+        "table_id": "p081-t01",
+        "row": "Private consumption",
+        "column": "2024f"
+      }
+    ]
+  },
+  {
+    "id": "ad-t03",
+    "split": "dev",
+    "group": "table",
+    "question": "According to Table B1.2.1, what is Niger's real GDP growth forecast for 2024?",
+    "answerable": true,
+    "expected_answer": "9.1 percent.",
+    "gold": [
+      {
+        "page": 50,
+        "content_type": "table",
+        "evidence": "| Niger | 1.4 | 11.5 | 2.0 | 9.1 | 6.2 | 5.1 |  | -3.7 | -1.2 |",
+        "table_id": "p050-t01",
+        "row": "Niger",
+        "column": "2024f"
+      }
+    ]
+  },
+  {
+    "id": "ad-t04",
+    "split": "dev",
+    "group": "table",
+    "question": "In Table 4.1, which small state is marked both tourism reliant and 'In distress' for risk of overall debt distress?",
+    "answerable": true,
+    "expected_answer": "Grenada.",
+    "gold": [
+      {
+        "page": 194,
+        "content_type": "table",
+        "evidence": "| Grenada | X |  |  | X | In distress | X | Blend |",
+        "table_id": "p194-t01",
+        "row": "Grenada"
+      }
+    ]
+  },
+  {
+    "id": "ad-i01",
+    "split": "dev",
+    "group": "image",
+    "question": "Which region's locator map highlights China, Indonesia, and Viet Nam?",
+    "answerable": true,
+    "expected_answer": "East Asia and Pacific.",
+    "gold": [
+      {
+        "page": 75,
+        "content_type": "image",
+        "evidence": "highlights East Asia and Pacific (EAP) in orange/yellow: China, Indonesia, the Philippines, Viet Nam"
+      }
+    ]
+  },
+  {
+    "id": "ad-i02",
+    "split": "dev",
+    "group": "image",
+    "question": "Which region's locator map highlights the Russian Federation and Türkiye?",
+    "answerable": true,
+    "expected_answer": "Europe and Central Asia.",
+    "gold": [
+      {
+        "page": 83,
+        "content_type": "image",
+        "evidence": "highlights Europe and Central Asia (ECA) in orange/yellow, covering the Russian Federation, Türkiye"
+      }
+    ]
+  },
+  {
+    "id": "ad-c01",
+    "split": "dev",
+    "group": "chart",
+    "question": "According to Figure 1.3 panel C, what are the global trade growth forecasts for 2024 and 2025?",
+    "answerable": true,
+    "expected_answer": "2.5 percent in 2024 and 3.4 percent in 2025.",
+    "gold": [
+      {
+        "page": 31,
+        "content_type": "chart",
+        "evidence": "forecast about 2.5% (2024f) and 3.4% (2025f)"
+      }
+    ]
+  },
+  {
+    "id": "ad-c02",
+    "split": "dev",
+    "group": "chart",
+    "question": "In Figure 3.1 panel A, what share of GDP per year do low-income countries need for resilient and low-carbon infrastructure?",
+    "answerable": true,
+    "expected_answer": "About 8 percent of GDP per year.",
+    "gold": [
+      {
+        "page": 128,
+        "content_type": "chart",
+        "evidence": "low income (~8%)"
+      }
+    ]
+  },
+  {
+    "id": "ad-x01",
+    "split": "dev",
+    "group": "text",
+    "question": "What is global inflation projected to average in 2024?",
+    "answerable": true,
+    "expected_answer": "3.5 percent.",
+    "gold": [
+      {
+        "page": 19,
+        "content_type": "text",
+        "evidence": "Global inflation is projected to moderate—but at a slower clip than previously assumed, averaging 3.5 percent this year."
+      }
+    ]
+  },
+  {
+    "id": "ad-x02",
+    "split": "dev",
+    "group": "text",
+    "question": "What period does the public investment dataset cover?",
+    "answerable": true,
+    "expected_answer": "1980-2019.",
+    "gold": [
+      {
+        "page": 135,
+        "content_type": "text",
+        "evidence": "spanning the period 1980-2019"
+      }
+    ]
+  },
+  {
+    "id": "ad-x03",
+    "split": "dev",
+    "group": "text",
+    "question": "What is LIC growth forecast to rise from in 2023 to in 2024?",
+    "answerable": true,
+    "expected_answer": "From 3.8 percent in 2023 to 5 percent in 2024.",
+    "gold": [
+      {
+        "page": 28,
+        "content_type": "text",
+        "evidence": "Growth in LICs is forecast to improve over the forecast horizon from a subdued 3.8 percent in 2023 to 5 percent this year."
+      }
+    ]
+  },
+  {
+    "id": "ad-x04",
+    "split": "dev",
+    "group": "text",
+    "question": "What average global growth rate does the foreword project through 2026, and how does it compare with the pre-COVID decade?",
+    "answerable": true,
+    "expected_answer": "2.7 percent a year through 2026, below the 3.1 percent average in the decade before COVID-19.",
+    "gold": [
+      {
+        "page": 17,
+        "content_type": "text",
+        "evidence": "2.7 percent a year on average through 2026, well below the 3.1 percent average in the decade before COVID-19"
+      }
+    ]
+  },
+  {
+    "id": "ad-x05",
+    "split": "dev",
+    "group": "text",
+    "question": "What slowed the recovery in the Sahel region?",
+    "answerable": true,
+    "expected_answer": "A surge in conflict.",
+    "gold": [
+      {
+        "page": 46,
+        "content_type": "text",
+        "evidence": "particularly in the Sahel region of Africa following a surge in conflict last year"
+      }
+    ]
+  },
+  {
+    "id": "ad-m01",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "Compare China's 2024 growth forecast in Table 1.1 with the East Asia and Pacific aggregate in Table 2.1.1.",
+    "answerable": true,
+    "expected_answer": "Both are 4.8 percent.",
+    "gold": [
+      {
+        "page": 26,
+        "content_type": "table",
+        "evidence": "| China | 8.4 | 3.0 | 5.2 | 4.8 | 4.1 | 4.0 |  | 0.3 | -0.2 |",
+        "table_id": "p026-t01",
+        "row": "China",
+        "column": "2024f"
+      },
+      {
+        "page": 81,
+        "content_type": "table",
+        "evidence": "| EMDE EAP, GDP 1 | 7.6 | 3.4 | 5.1 | 4.8 | 4.2 | 4.1 |  | 0.3 | -0.2 |",
+        "table_id": "p081-t01",
+        "row": "EMDE EAP, GDP 1",
+        "column": "2024f"
+      }
+    ]
+  },
+  {
+    "id": "ad-m02",
+    "split": "dev",
+    "group": "multi_hop",
+    "question": "According to the Executive Summary, at what rate does global growth stabilize in 2024, and what does Table 1.1 forecast for 2025?",
+    "answerable": true,
+    "expected_answer": "2.6 percent in 2024 and 2.7 percent in 2025.",
+    "gold": [
+      {
+        "page": 19,
+        "content_type": "text",
+        "evidence": "Global growth is projected to stabilize at 2.6 percent this year"
+      },
+      {
+        "page": 26,
+        "content_type": "table",
+        "evidence": "| World | 6.3 | 3.0 | 2.6 | 2.6 | 2.7 | 2.7 |  | 0.2 | 0.0 |",
+        "table_id": "p026-t01",
+        "row": "World",
+        "column": "2025f"
+      }
+    ]
+  },
+  {
+    "id": "au01",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "What is the World Bank's GDP growth forecast for Vietnam in 2027?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report's forecast tables stop at 2026; no 2027 forecast is provided.",
+    "absence_checks": [
+      "2027"
+    ]
+  },
+  {
+    "id": "au02",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "How many employees work at the World Bank?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report does not state a World Bank headcount.",
+    "absence_checks": [
+      "World Bank.{0,80}(employees|headcount)",
+      "(employees|headcount).{0,40}World Bank"
+    ]
+  },
+  {
+    "id": "au03",
+    "split": "dev",
+    "group": "unanswerable",
+    "question": "Who is the photographer of the report's cover?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report does not credit a cover photographer.",
+    "absence_checks": [
+      "photographer",
+      "cover photo"
+    ]
+  },
+  {
+    "id": "at-t01",
+    "split": "test",
+    "group": "table",
+    "question": "According to Table 1.1, what is the World real GDP growth forecast for 2024?",
+    "answerable": true,
+    "expected_answer": "2.6 percent.",
+    "gold": [
+      {
+        "page": 26,
+        "content_type": "table",
+        "evidence": "| World | 6.3 | 3.0 | 2.6 | 2.6 | 2.7 | 2.7 |  | 0.2 | 0.0 |",
+        "table_id": "p026-t01",
+        "row": "World",
+        "column": "2024f"
+      }
+    ]
+  },
+  {
+    "id": "at-t02",
+    "split": "test",
+    "group": "table",
+    "question": "According to Table 1.1, what is China's real GDP growth forecast for 2024?",
+    "answerable": true,
+    "expected_answer": "4.8 percent.",
+    "gold": [
+      {
+        "page": 26,
+        "content_type": "table",
+        "evidence": "| China | 8.4 | 3.0 | 5.2 | 4.8 | 4.1 | 4.0 |  | 0.3 | -0.2 |",
+        "table_id": "p026-t01",
+        "row": "China",
+        "column": "2024f"
+      }
+    ]
+  },
+  {
+    "id": "at-t03",
+    "split": "test",
+    "group": "table",
+    "question": "According to Table B1.2.1, what is Rwanda's real GDP growth forecast for 2024?",
+    "answerable": true,
+    "expected_answer": "7.6 percent.",
+    "gold": [
+      {
+        "page": 50,
+        "content_type": "table",
+        "evidence": "| Rwanda | 10.9 | 8.2 | 8.2 | 7.6 | 7.8 | 7.5 |  | 0.1 | 0.0 |",
+        "table_id": "p050-t01",
+        "row": "Rwanda",
+        "column": "2024f"
+      }
+    ]
+  },
+  {
+    "id": "at-t04",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 2.5.1, what is the 2024 real GDP growth forecast for South Asia?",
+    "answerable": true,
+    "expected_answer": "6.2 percent.",
+    "gold": [
+      {
+        "page": 112,
+        "content_type": "table",
+        "evidence": "| EMDE South Asia, GDP 1 | 8.6 | 5.8 | 6.6 | 6.2 | 6.2 | 6.2 |  | 0.6 | 0.3 |",
+        "table_id": "p112-t01",
+        "row": "EMDE South Asia, GDP 1",
+        "column": "2024f"
+      }
+    ]
+  },
+  {
+    "id": "at-t05",
+    "split": "test",
+    "group": "table",
+    "question": "In Table A3.2.1, how many economies are in the sample used to estimate public investment multipliers?",
+    "answerable": true,
+    "expected_answer": "129 economies.",
+    "gold": [
+      {
+        "page": 159,
+        "content_type": "table",
+        "evidence": "| Number of economies | 129 |",
+        "table_id": "p159-t01",
+        "row": "Number of economies"
+      }
+    ]
+  },
+  {
+    "id": "at-t06",
+    "split": "test",
+    "group": "table",
+    "question": "In Table 4.1, which small state is marked both as a commodity exporter and 'In distress' for risk of overall debt distress?",
+    "answerable": true,
+    "expected_answer": "São Tomé and Príncipe.",
+    "gold": [
+      {
+        "page": 194,
+        "content_type": "table",
+        "evidence": "| São Tomé and Príncipe |  | X | X |  | In distress | X | IDA |",
+        "table_id": "p194-t01",
+        "row": "São Tomé and Príncipe"
+      }
+    ]
+  },
+  {
+    "id": "at-i01",
+    "split": "test",
+    "group": "image",
+    "question": "Which region's locator map highlights Brazil and Mexico?",
+    "answerable": true,
+    "expected_answer": "Latin America and the Caribbean.",
+    "gold": [
+      {
+        "page": 91,
+        "content_type": "image",
+        "evidence": "highlights Latin America and the Caribbean (LAC) in orange/yellow, covering Mexico, Brazil"
+      }
+    ]
+  },
+  {
+    "id": "at-i02",
+    "split": "test",
+    "group": "image",
+    "question": "Which region's locator map highlights Saudi Arabia and the Islamic Republic of Iran?",
+    "answerable": true,
+    "expected_answer": "Middle East and North Africa.",
+    "gold": [
+      {
+        "page": 99,
+        "content_type": "image",
+        "evidence": "highlights the Middle East and North Africa (MNA) in orange/yellow, including Saudi Arabia, the Islamic Republic of Iran"
+      }
+    ]
+  },
+  {
+    "id": "at-i03",
+    "split": "test",
+    "group": "image",
+    "question": "Which region's locator map highlights India and Pakistan?",
+    "answerable": true,
+    "expected_answer": "South Asia.",
+    "gold": [
+      {
+        "page": 107,
+        "content_type": "image",
+        "evidence": "highlights South Asia (SAR) in orange/yellow, covering India, Pakistan"
+      }
+    ]
+  },
+  {
+    "id": "at-i04",
+    "split": "test",
+    "group": "image",
+    "question": "Which region's locator map highlights Nigeria and South Africa?",
+    "answerable": true,
+    "expected_answer": "Sub-Saharan Africa.",
+    "gold": [
+      {
+        "page": 115,
+        "content_type": "image",
+        "evidence": "highlights Sub-Saharan Africa (SSA) in orange/yellow, covering West, East, Central and Southern Africa, including Nigeria, South Africa"
+      }
+    ]
+  },
+  {
+    "id": "at-i05",
+    "split": "test",
+    "group": "image",
+    "question": "What ISBN is printed above the barcode on the back cover?",
+    "answerable": true,
+    "expected_answer": "978-1-4648-2058-8.",
+    "gold": [
+      {
+        "page": 220,
+        "content_type": "image",
+        "evidence": "ISBN 978-1-4648-2058-8"
+      }
+    ]
+  },
+  {
+    "id": "at-c01",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 1.1 panel D, what percentage of EMDEs are vulnerable to debt-related stress?",
+    "answerable": true,
+    "expected_answer": "About 38 percent.",
+    "gold": [
+      {
+        "page": 27,
+        "content_type": "chart",
+        "evidence": "EMDES about 38"
+      }
+    ]
+  },
+  {
+    "id": "at-c02",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 1.2 panel B, which year has the highest global trade policy uncertainty index?",
+    "answerable": true,
+    "expected_answer": "2024.",
+    "gold": [
+      {
+        "page": 29,
+        "content_type": "chart",
+        "evidence": "2024 highest near 75"
+      }
+    ]
+  },
+  {
+    "id": "at-c03",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 4.15 panel A, what share of GDP do small states receive in official development assistance?",
+    "answerable": true,
+    "expected_answer": "About 14 percent of GDP.",
+    "gold": [
+      {
+        "page": 192,
+        "content_type": "chart",
+        "evidence": "small states, about 14%"
+      }
+    ]
+  },
+  {
+    "id": "at-c04",
+    "split": "test",
+    "group": "chart",
+    "question": "What does Figure 1.5 panel D show about global consumer price inflation by 2026?",
+    "answerable": true,
+    "expected_answer": "It declines toward the inflation target by 2026.",
+    "gold": [
+      {
+        "page": 34,
+        "content_type": "chart",
+        "evidence": "inflation declining toward target by 2026"
+      }
+    ]
+  },
+  {
+    "id": "at-c05",
+    "split": "test",
+    "group": "chart",
+    "question": "In Figure 1.6 panel A, what level do market expectations for the U.S. policy rate reach in 2024–25?",
+    "answerable": true,
+    "expected_answer": "About 5–6 percent.",
+    "gold": [
+      {
+        "page": 35,
+        "content_type": "chart",
+        "evidence": "about 5–6 percent and flattening through 2024–25"
+      }
+    ]
+  },
+  {
+    "id": "at-x01",
+    "split": "test",
+    "group": "text",
+    "question": "What is global growth projected to be in 2025-26?",
+    "answerable": true,
+    "expected_answer": "2.7 percent.",
+    "gold": [
+      {
+        "page": 25,
+        "content_type": "text",
+        "evidence": "before edging up to 2.7 percent in 2025-26"
+      }
+    ]
+  },
+  {
+    "id": "at-x02",
+    "split": "test",
+    "group": "text",
+    "question": "How far below the 2010-19 average is global growth projected to be in 2024?",
+    "answerable": true,
+    "expected_answer": "Half a percentage point below the 2010-19 average.",
+    "gold": [
+      {
+        "page": 52,
+        "content_type": "text",
+        "evidence": "Global growth is projected to remain subdued at 2.6 percent in 2024—half a percentage point below the 2010-19 average"
+      }
+    ]
+  },
+  {
+    "id": "at-x03",
+    "split": "test",
+    "group": "text",
+    "question": "How many EMDE small states are in the chapter's sample?",
+    "answerable": true,
+    "expected_answer": "Up to 35.",
+    "gold": [
+      {
+        "page": 173,
+        "content_type": "text",
+        "evidence": "up to 35 EMDE small states"
+      }
+    ]
+  },
+  {
+    "id": "at-x04",
+    "split": "test",
+    "group": "text",
+    "question": "What is the average VAT rate in small states, and how does it compare with other EMDEs?",
+    "answerable": true,
+    "expected_answer": "14 percent, about 2 percentage points lower than the average in other EMDEs.",
+    "gold": [
+      {
+        "page": 186,
+        "content_type": "text",
+        "evidence": "VAT rates in small states average 14 percent, around 2 percentage points lower than the average in other EMDEs."
+      }
+    ]
+  },
+  {
+    "id": "at-m01",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "Compare world growth and East Asia and Pacific growth in 2024. Which is higher, and by how many percentage points?",
+    "answerable": true,
+    "expected_answer": "East Asia and Pacific is higher: 4.8 percent versus 2.6 percent for the world, a difference of 2.2 percentage points.",
+    "gold": [
+      {
+        "page": 26,
+        "content_type": "table",
+        "evidence": "| World | 6.3 | 3.0 | 2.6 | 2.6 | 2.7 | 2.7 |  | 0.2 | 0.0 |",
+        "table_id": "p026-t01",
+        "row": "World",
+        "column": "2024f"
+      },
+      {
+        "page": 81,
+        "content_type": "table",
+        "evidence": "| EMDE EAP, GDP 1 | 7.6 | 3.4 | 5.1 | 4.8 | 4.2 | 4.1 |  | 0.3 | -0.2 |",
+        "table_id": "p081-t01",
+        "row": "EMDE EAP, GDP 1",
+        "column": "2024f"
+      }
+    ]
+  },
+  {
+    "id": "at-m02",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "What does the South Asia chapter say about the region's growth slowdown, and what does Table 2.5.1 show for 2024?",
+    "answerable": true,
+    "expected_answer": "Growth is projected to slow from 6.6 percent in 2023 to 6.2 percent in 2024; Table 2.5.1 also shows 6.2 percent for 2024.",
+    "gold": [
+      {
+        "page": 107,
+        "content_type": "text",
+        "evidence": "Growth in the South Asia (SAR) region is projected to slow from 6.6 percent in 2023 to 6.2 percent in 2024"
+      },
+      {
+        "page": 112,
+        "content_type": "table",
+        "evidence": "| EMDE South Asia, GDP 1 | 8.6 | 5.8 | 6.6 | 6.2 | 6.2 | 6.2 |  | 0.6 | 0.3 |",
+        "table_id": "p112-t01",
+        "row": "EMDE South Asia, GDP 1",
+        "column": "2024f"
+      }
+    ]
+  },
+  {
+    "id": "at-m03",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "What happened to trade policy uncertainty in 2024 while global trade growth was forecast at 2.5 percent?",
+    "answerable": true,
+    "expected_answer": "Trade policy uncertainty was at its highest level in 2024, while global trade growth was forecast at 2.5 percent in 2024.",
+    "gold": [
+      {
+        "page": 29,
+        "content_type": "chart",
+        "evidence": "2024 highest near 75"
+      },
+      {
+        "page": 31,
+        "content_type": "chart",
+        "evidence": "forecast about 2.5% (2024f) and 3.4% (2025f)"
+      }
+    ]
+  },
+  {
+    "id": "at-m04",
+    "split": "test",
+    "group": "multi_hop",
+    "question": "How much faster is LIC growth than world growth in 2024?",
+    "answerable": true,
+    "expected_answer": "LIC growth is 5.0 percent versus 2.6 percent for the world, so it is 2.4 percentage points faster.",
+    "gold": [
+      {
+        "page": 50,
+        "content_type": "table",
+        "evidence": "| Low-Income Countries, GDP b | 4.1 | 5.0 | 3.8 | 5.0 | 5.3 | 5.5 |  | -0.5 | -0.3 |",
+        "table_id": "p050-t01",
+        "row": "Low-Income Countries, GDP b",
+        "column": "2024f"
+      },
+      {
+        "page": 26,
+        "content_type": "table",
+        "evidence": "| World | 6.3 | 3.0 | 2.6 | 2.6 | 2.7 | 2.7 |  | 0.2 | 0.0 |",
+        "table_id": "p026-t01",
+        "row": "World",
+        "column": "2024f"
+      }
+    ]
+  },
+  {
+    "id": "au04",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Which country had the highest foreign direct investment inflow in 2023?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report discusses FDI only qualitatively and does not rank countries by 2023 inflows.",
+    "absence_checks": [
+      "FDI.{0,100}(highest|largest|top)",
+      "foreign direct investment.{0,100}(highest|largest|top)"
+    ]
+  },
+  {
+    "id": "au05",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What is the exact population of India in 2024?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report does not provide an exact 2024 population for India.",
+    "absence_checks": [
+      "population of India",
+      "India.{0,40}population"
+    ]
+  },
+  {
+    "id": "au06",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "How many member countries does the World Bank have?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report does not state the number of World Bank member countries.",
+    "absence_checks": [
+      "\\d{2,3}\\s+member countries",
+      "member countries.{0,20}\\d"
+    ]
+  },
+  {
+    "id": "au07",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Who is the President of the World Bank?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report names the Senior Vice President and Chief Economist but not the President.",
+    "absence_checks": [
+      "President of the World Bank",
+      "World Bank President"
+    ]
+  },
+  {
+    "id": "au08",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "What was the World Bank's total lending in fiscal year 2024?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report does not state total World Bank lending for fiscal 2024.",
+    "absence_checks": [
+      "total lending.{0,80}(2024|fiscal)",
+      "(fiscal year 2024|FY2024).{0,80}(lending|commitments)"
+    ]
+  },
+  {
+    "id": "au09",
+    "split": "test",
+    "group": "unanswerable",
+    "question": "Which country had the highest inflation rate in 2023?",
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "The report does not rank countries by 2023 inflation.",
+    "absence_checks": [
+      "country.{0,50}(highest|largest).{0,50}inflation",
+      "highest inflation rate"
+    ]
+  }
+]

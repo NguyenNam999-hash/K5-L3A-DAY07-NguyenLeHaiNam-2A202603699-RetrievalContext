@@ -1,0 +1,20 @@
+{
+  "config": "tfidf",
+  "description": "TF-IDF cosine, top-3, no filter",
+  "split": "test",
+  "top_k": 3,
+  "budget": 800,
+  "filters": false,
+  "n": 5,
+  "hit1": 3,
+  "hit1_rate": 0.6,
+  "hit3": 5,
+  "hit3_rate": 1.0,
+  "mrr": 0.8,
+  "context_hit": 0,
+  "context_rate": 0.0,
+  "avg_context_chars": 564.6,
+  "median_latency_ms": 0.2,
+  "llm_calls": 0,
+  "list_cost_usd": 0.0
+}

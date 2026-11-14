@@ -1,0 +1,20 @@
+{
+  "config": "dense",
+  "description": "BGE + pgvector cosine, top-3, no filter",
+  "split": "dev",
+  "top_k": 3,
+  "budget": 2400,
+  "filters": false,
+  "n": 15,
+  "hit1": 9,
+  "hit1_rate": 0.6,
+  "hit3": 12,
+  "hit3_rate": 0.8,
+  "mrr": 0.7,
+  "context_hit": 12,
+  "context_rate": 0.8,
+  "avg_context_chars": 1984.6,
+  "median_latency_ms": 27.6,
+  "llm_calls": 0,
+  "list_cost_usd": 0.0
+}

@@ -1,0 +1,1271 @@
+[
+  {
+    "query_id": "t01",
+    "split": "test",
+    "question": "In the pool of tears, what does Alice say is the capital of Paris while reciting her geography lesson?",
+    "status": "answered",
+    "answer": "Alice says, \"London is the capital of Paris, and Paris is the capital of Rome\" — then admits \"that's all wrong, I'm certain!\" [alice-1865-p005-b000]",
+    "citations": [
+      "alice-1865-p005-b000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "Alice geography lesson capital of Paris pool of tears",
+        "section": null,
+        "top_k": 6,
+        "results": [
+          {
+            "id": "alice-1865-p006-b000",
+            "page": 6,
+            "section": "Chapter II - The Pool of Tears",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6153112649917603,
+            "rank": 1
+          },
+          {
+            "id": "alice-1865-p005-b004",
+            "page": 5,
+            "section": "Chapter II - The Pool of Tears",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5985105990475784,
+            "rank": 2
+          },
+          {
+            "id": "alice-1865-p006-b002",
+            "page": 6,
+            "section": "Chapter II - The Pool of Tears",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5963116884231567,
+            "rank": 3
+          },
+          {
+            "id": "alice-1865-p003-b004",
+            "page": 3,
+            "section": "Chapter I - Down the Rabbit-Hole",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5815421689475886,
+            "rank": 4
+          },
+          {
+            "id": "alice-1865-p004-b001",
+            "page": 4,
+            "section": "Chapter II - The Pool of Tears",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5776019096374512,
+            "rank": 5
+          },
+          {
+            "id": "alice-1865-p005-b001",
+            "page": 5,
+            "section": "Chapter II - The Pool of Tears",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5624812170885582,
+            "rank": 6
+          }
+        ],
+        "context": "[alice-1865-p006-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 6 | Chapter II - The Pool of Tears]\n“I wish I hadn’t cried so much!” said Alice, as she swam about, trying to find her way out. “I shall be punished for it now, I suppose, by being drowned in my own tears! That _will_ be a queer thing, to be sure! However, everything is queer to-day.”\n\nJust then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was: at first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself.\n\n[alice-1865-p005-b004 | https://www.gutenberg.org/files/11/11-0.txt | page 5 | Chapter II - The Pool of Tears]\nAs she said these words her foot slipped, and in another moment, splash! she was up to her chin in salt water. Her first idea was that she had somehow fallen into the sea, “and in that case I can go back by railway,” she said to herself. (Alice had been to the seaside once in her life, and had come to the general conclusion, that wherever you go to on the English coast you find a number of bathing machines in the sea, some children digging in the sand with wooden spades, then a row of lodging houses, and behind them a railway station.) However, she soon made out that she was in the pool of tears which she had wept when she was nine feet high.\n\n[alice-1865-p006-b002 | https://www.gutenberg.org/files/11/11-0.txt | page 6 | Chapter II - The Pool of Tears]\n“Perhaps it doesn’t understand English,” thought Alice; “I daresay it’s a French mouse, come over with William the Conqueror.” (For, with all her knowledge of history, Alice had no very clear notion how long ago anything had happened.) So she began again: “Où est ma chatte?” which was the first sentence in her French lesson-book. The Mouse gave a sudden leap out of the water, and seemed to quiver all over with fright. “Oh, I beg your pardon!” cried Alice hastily, afraid that she had hurt the poor animal’s feelings. “I quite forgot you didn’t like cats.”\n\n“Not like cats!” cried the Mouse, in a shrill, passionate voice. “Would _you_ like cats if you were me?”",
+        "context_ids": [
+          "alice-1865-p006-b000",
+          "alice-1865-p005-b004",
+          "alice-1865-p006-b002"
+        ],
+        "latency_ms": 122.7
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "\"London is the capital of Paris\"",
+        "section": null,
+        "top_k": 4,
+        "results": [
+          {
+            "id": "alice-1865-p005-b000",
+            "page": 5,
+            "section": "Chapter II - The Pool of Tears",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5889006257057232,
+            "rank": 1
+          },
+          {
+            "id": "alice-1865-p037-b002",
+            "page": 37,
+            "section": "Chapter XII - Alice’s Evidence",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5232844636866779,
+            "rank": 2
+          },
+          {
+            "id": "alice-1865-p001-b003",
+            "page": 1,
+            "section": "Chapter I - Down the Rabbit-Hole",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5206974124077067,
+            "rank": 3
+          },
+          {
+            "id": "alice-1865-p002-b000",
+            "page": 2,
+            "section": "Chapter I - Down the Rabbit-Hole",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5198701310235193,
+            "rank": 4
+          }
+        ],
+        "context": "[alice-1865-p006-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 6 | Chapter II - The Pool of Tears]\n“I wish I hadn’t cried so much!” said Alice, as she swam about, trying to find her way out. “I shall be punished for it now, I suppose, by being drowned in my own tears! That _will_ be a queer thing, to be sure! However, everything is queer to-day.”\n\nJust then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was: at first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself.\n\n[alice-1865-p005-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 5 | Chapter II - The Pool of Tears]\n“I’m sure I’m not Ada,” she said, “for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, _she’s_ she, and _I’m_ I, and—oh dear, how puzzling it all is! I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is—oh dear! I shall never get to twenty at that rate! However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, _that’s_ all wrong, I’m certain! I must have been changed for Mabel! I’ll try and say ‘_How doth the little_—’” and she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:—",
+        "context_ids": [
+          "alice-1865-p006-b000",
+          "alice-1865-p005-b000"
+        ],
+        "latency_ms": 41.6
+      },
+      {
+        "event": "answer",
+        "tool": "finalize"
+      }
+    ],
+    "context": "[alice-1865-p006-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 6 | Chapter II - The Pool of Tears]\n“I wish I hadn’t cried so much!” said Alice, as she swam about, trying to find her way out. “I shall be punished for it now, I suppose, by being drowned in my own tears! That _will_ be a queer thing, to be sure! However, everything is queer to-day.”\n\nJust then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was: at first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself.\n\n[alice-1865-p005-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 5 | Chapter II - The Pool of Tears]\n“I’m sure I’m not Ada,” she said, “for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, _she’s_ she, and _I’m_ I, and—oh dear, how puzzling it all is! I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is—oh dear! I shall never get to twenty at that rate! However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, _that’s_ all wrong, I’m certain! I must have been changed for Mabel! I’ll try and say ‘_How doth the little_—’” and she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:—",
+    "context_ids": [
+      "alice-1865-p006-b000",
+      "alice-1865-p005-b000"
+    ],
+    "context_chunks": [
+      {
+        "id": "alice-1865-p006-b000",
+        "text": "“I wish I hadn’t cried so much!” said Alice, as she swam about, trying to find her way out. “I shall be punished for it now, I suppose, by being drowned in my own tears! That _will_ be a queer thing, to be sure! However, everything is queer to-day.”\n\nJust then she heard something splashing about in the pool a little way off, and she swam nearer to make out what it was: at first she thought it must be a walrus or hippopotamus, but then she remembered how small she was now, and she soon made out that it was only a mouse that had slipped in like herself.",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 6,
+        "metadata": {
+          "page": 6,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "II",
+          "section": "Chapter II - The Pool of Tears",
+          "language": "en",
+          "char_count": 4222,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter II - The Pool of Tears",
+        "score": 0.6153112649917603,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "alice-1865-p005-b000",
+        "text": "“I’m sure I’m not Ada,” she said, “for her hair goes in such long ringlets, and mine doesn’t go in ringlets at all; and I’m sure I can’t be Mabel, for I know all sorts of things, and she, oh! she knows such a very little! Besides, _she’s_ she, and _I’m_ I, and—oh dear, how puzzling it all is! I’ll try if I know all the things I used to know. Let me see: four times five is twelve, and four times six is thirteen, and four times seven is—oh dear! I shall never get to twenty at that rate! However, the Multiplication Table doesn’t signify: let’s try Geography. London is the capital of Paris, and Paris is the capital of Rome, and Rome—no, _that’s_ all wrong, I’m certain! I must have been changed for Mabel! I’ll try and say ‘_How doth the little_—’” and she crossed her hands on her lap as if she were saying lessons, and began to repeat it, but her voice sounded hoarse and strange, and the words did not come the same as they used to do:—",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 5,
+        "metadata": {
+          "page": 5,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "II",
+          "section": "Chapter II - The Pool of Tears",
+          "language": "en",
+          "char_count": 3609,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter II - The Pool of Tears",
+        "score": 0.5889006257057232,
+        "rank": 1,
+        "method": "dense"
+      }
+    ],
+    "tool_calls": 2,
+    "searches": 2,
+    "stop_reason": "answer",
+    "latency_ms": 14671.5,
+    "llm_calls": 3,
+    "usage": {
+      "prompt_tokens": 6060,
+      "completion_tokens": 498,
+      "total_tokens": 6558,
+      "list_cost_usd": 0.00068094
+    },
+    "config": "baseline",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 5,
+        "evidence": "London is the capital of Paris, and Paris is the capital of Rome"
+      }
+    ],
+    "expected_answer": "London."
+  },
+  {
+    "query_id": "t02",
+    "split": "test",
+    "question": "According to the creatures outside the house, who is supposed to go down the chimney?",
+    "status": "answered",
+    "answer": "Bill is the one supposed to go down the chimney. Alice overhears the creatures outside and says to herself, “Oh! So Bill’s got to come down the chimney, has he?” [alice-1865-p012-b001]",
+    "citations": [
+      "alice-1865-p012-b001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "go down the chimney creatures outside house",
+        "section": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "alice-1865-p012-b001",
+            "page": 12,
+            "section": "Chapter IV - The Rabbit Sends in a Little Bill",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5932304505568569,
+            "rank": 1
+          },
+          {
+            "id": "alice-1865-p017-b001",
+            "page": 17,
+            "section": "Chapter VI - Pig and Pepper",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5617316793879489,
+            "rank": 2
+          },
+          {
+            "id": "alice-1865-p023-b002",
+            "page": 23,
+            "section": "Chapter VII - A Mad Tea-Party",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.551155789162058,
+            "rank": 3
+          },
+          {
+            "id": "alice-1865-p002-b001",
+            "page": 2,
+            "section": "Chapter I - Down the Rabbit-Hole",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5494923264090908,
+            "rank": 4
+          },
+          {
+            "id": "alice-1865-p015-b002",
+            "page": 15,
+            "section": "Chapter V - Advice from a Caterpillar",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5468452516978718,
+            "rank": 5
+          },
+          {
+            "id": "alice-1865-p023-b000",
+            "page": 23,
+            "section": "Chapter VII - A Mad Tea-Party",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5466304040019991,
+            "rank": 6
+          },
+          {
+            "id": "alice-1865-p012-b004",
+            "page": 12,
+            "section": "Chapter IV - The Rabbit Sends in a Little Bill",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5405371140793465,
+            "rank": 7
+          },
+          {
+            "id": "alice-1865-p012-b000",
+            "page": 12,
+            "section": "Chapter IV - The Rabbit Sends in a Little Bill",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5380944724594589,
+            "rank": 8
+          },
+          {
+            "id": "alice-1865-p018-b000",
+            "page": 18,
+            "section": "Chapter VI - Pig and Pepper",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5364080028047596,
+            "rank": 9
+          },
+          {
+            "id": "alice-1865-p020-b002",
+            "page": 20,
+            "section": "Chapter VI - Pig and Pepper",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5356312351666447,
+            "rank": 10
+          }
+        ],
+        "context": "[alice-1865-p012-b001 | https://www.gutenberg.org/files/11/11-0.txt | page 12 | Chapter IV - The Rabbit Sends in a Little Bill]\n“Oh! So Bill’s got to come down the chimney, has he?” said Alice to herself. “Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I _think_ I can kick a little!”\n\nShe drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her: then, saying to herself “This is Bill,” she gave one sharp kick, and waited to see what would happen next.\n\nThe first thing she heard was a general chorus of “There goes Bill!” then the Rabbit’s voice along—“Catch him, you by the hedge!” then silence, and then another confusion of voices—“Hold up his head—Brandy now—Don’t choke him—How was it, old fellow? What happened to you? Tell us all about it!”\n\n[alice-1865-p017-b001 | https://www.gutenberg.org/files/11/11-0.txt | page 17 | Chapter VI - Pig and Pepper]\nThen they both bowed low, and their curls got entangled together.\n\nAlice laughed so much at this, that she had to run back into the wood for fear of their hearing her; and when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky.\n\nAlice went timidly up to the door, and knocked.\n\n“There’s no sort of use in knocking,” said the Footman, “and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you.” And certainly there _was_ a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces.\n\n“Please, then,” said Alice, “how am I to get in?”",
+        "context_ids": [
+          "alice-1865-p012-b001",
+          "alice-1865-p017-b001"
+        ],
+        "latency_ms": 53.0
+      },
+      {
+        "event": "answer",
+        "tool": "finalize"
+      }
+    ],
+    "context": "[alice-1865-p012-b001 | https://www.gutenberg.org/files/11/11-0.txt | page 12 | Chapter IV - The Rabbit Sends in a Little Bill]\n“Oh! So Bill’s got to come down the chimney, has he?” said Alice to herself. “Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I _think_ I can kick a little!”\n\nShe drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her: then, saying to herself “This is Bill,” she gave one sharp kick, and waited to see what would happen next.\n\nThe first thing she heard was a general chorus of “There goes Bill!” then the Rabbit’s voice along—“Catch him, you by the hedge!” then silence, and then another confusion of voices—“Hold up his head—Brandy now—Don’t choke him—How was it, old fellow? What happened to you? Tell us all about it!”\n\n[alice-1865-p017-b001 | https://www.gutenberg.org/files/11/11-0.txt | page 17 | Chapter VI - Pig and Pepper]\nThen they both bowed low, and their curls got entangled together.\n\nAlice laughed so much at this, that she had to run back into the wood for fear of their hearing her; and when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky.\n\nAlice went timidly up to the door, and knocked.\n\n“There’s no sort of use in knocking,” said the Footman, “and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you.” And certainly there _was_ a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces.\n\n“Please, then,” said Alice, “how am I to get in?”",
+    "context_ids": [
+      "alice-1865-p012-b001",
+      "alice-1865-p017-b001"
+    ],
+    "context_chunks": [
+      {
+        "id": "alice-1865-p012-b001",
+        "text": "“Oh! So Bill’s got to come down the chimney, has he?” said Alice to herself. “Shy, they seem to put everything upon Bill! I wouldn’t be in Bill’s place for a good deal: this fireplace is narrow, to be sure; but I _think_ I can kick a little!”\n\nShe drew her foot as far down the chimney as she could, and waited till she heard a little animal (she couldn’t guess of what sort it was) scratching and scrambling about in the chimney close above her: then, saying to herself “This is Bill,” she gave one sharp kick, and waited to see what would happen next.\n\nThe first thing she heard was a general chorus of “There goes Bill!” then the Rabbit’s voice along—“Catch him, you by the hedge!” then silence, and then another confusion of voices—“Hold up his head—Brandy now—Don’t choke him—How was it, old fellow? What happened to you? Tell us all about it!”",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 12,
+        "metadata": {
+          "page": 12,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "IV",
+          "section": "Chapter IV - The Rabbit Sends in a Little Bill",
+          "language": "en",
+          "char_count": 3728,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter IV - The Rabbit Sends in a Little Bill",
+        "score": 0.5932304505568569,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "alice-1865-p017-b001",
+        "text": "Then they both bowed low, and their curls got entangled together.\n\nAlice laughed so much at this, that she had to run back into the wood for fear of their hearing her; and when she next peeped out the Fish-Footman was gone, and the other was sitting on the ground near the door, staring stupidly up into the sky.\n\nAlice went timidly up to the door, and knocked.\n\n“There’s no sort of use in knocking,” said the Footman, “and that for two reasons. First, because I’m on the same side of the door as you are; secondly, because they’re making such a noise inside, no one could possibly hear you.” And certainly there _was_ a most extraordinary noise going on within—a constant howling and sneezing, and every now and then a great crash, as if a dish or kettle had been broken to pieces.\n\n“Please, then,” said Alice, “how am I to get in?”",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 17,
+        "metadata": {
+          "page": 17,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "VI",
+          "section": "Chapter VI - Pig and Pepper",
+          "language": "en",
+          "char_count": 3784,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter VI - Pig and Pepper",
+        "score": 0.5617316793879489,
+        "rank": 2,
+        "method": "dense"
+      }
+    ],
+    "tool_calls": 1,
+    "searches": 1,
+    "stop_reason": "answer",
+    "latency_ms": 6867.1,
+    "llm_calls": 2,
+    "usage": {
+      "prompt_tokens": 3210,
+      "completion_tokens": 221,
+      "total_tokens": 3431,
+      "list_cost_usd": 0.00038829999999999995
+    },
+    "config": "baseline",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 12,
+        "evidence": "Who’s to go down the chimney?—Nay, _I_ shan’t! _You_ do it!—_That_ I won’t, then!—Bill’s to go down"
+      }
+    ],
+    "expected_answer": "Bill."
+  },
+  {
+    "query_id": "t03",
+    "split": "test",
+    "question": "In Chapter VII - A Mad Tea-Party, what were the names of the three little sisters in the Dormouse's story?",
+    "status": "answered",
+    "answer": "The three little sisters in the Dormouse's story were named Elsie, Lacie, and Tillie [alice-1865-p023-b000].",
+    "citations": [
+      "alice-1865-p023-b000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "three little sisters names Dormouse story Elsie Lacie Tillie Mad Tea-Party",
+        "section": null,
+        "top_k": 6,
+        "results": [
+          {
+            "id": "alice-1865-p023-b000",
+            "page": 23,
+            "section": "Chapter VII - A Mad Tea-Party",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6677487094552106,
+            "rank": 1
+          },
+          {
+            "id": "alice-1865-p021-b000",
+            "page": 21,
+            "section": "Chapter VII - A Mad Tea-Party",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5864961886710877,
+            "rank": 2
+          },
+          {
+            "id": "alice-1865-p023-b001",
+            "page": 23,
+            "section": "Chapter VII - A Mad Tea-Party",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5604474711551511,
+            "rank": 3
+          },
+          {
+            "id": "alice-1865-p023-b004",
+            "page": 23,
+            "section": "Chapter VII - A Mad Tea-Party",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5564723610877991,
+            "rank": 4
+          },
+          {
+            "id": "alice-1865-p022-b003",
+            "page": 22,
+            "section": "Chapter VII - A Mad Tea-Party",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5395979446052894,
+            "rank": 5
+          },
+          {
+            "id": "alice-1865-p039-b001",
+            "page": 39,
+            "section": "Chapter XII - Alice’s Evidence",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.530338196138252,
+            "rank": 6
+          }
+        ],
+        "context": "[alice-1865-p023-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 23 | Chapter VII - A Mad Tea-Party]\n“Yes, please do!” pleaded Alice.\n\n“And be quick about it,” added the Hatter, “or you’ll be asleep again before it’s done.”\n\n“Once upon a time there were three little sisters,” the Dormouse began in a great hurry; “and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—”\n\n“What did they live on?” said Alice, who always took a great interest in questions of eating and drinking.\n\n“They lived on treacle,” said the Dormouse, after thinking a minute or two.\n\n“They couldn’t have done that, you know,” Alice gently remarked; “they’d have been ill.”\n\n“So they were,” said the Dormouse; “_very_ ill.”\n\nAlice tried to fancy to herself what such an extraordinary way of living would be like, but it puzzled her too much, so she went on: “But why did they live at the bottom of a well?”\n\n“Take some more tea,” the March Hare said to Alice, very earnestly.\n\n“I’ve had nothing yet,” Alice replied in an offended tone, “so I can’t take more.”\n\n[alice-1865-p021-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 21 | Chapter VII - A Mad Tea-Party]\nThere was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head. “Very uncomfortable for the Dormouse,” thought Alice; “only, as it’s asleep, I suppose it doesn’t mind.”\n\nThe table was a large one, but the three were all crowded together at one corner of it: “No room! No room!” they cried out when they saw Alice coming. “There’s _plenty_ of room!” said Alice indignantly, and she sat down in a large arm-chair at one end of the table.\n\n“Have some wine,” the March Hare said in an encouraging tone.\n\nAlice looked all round the table, but there was nothing on it but tea. “I don’t see any wine,” she remarked.\n\n“There isn’t any,” said the March Hare.\n\n“Then it wasn’t very civil of you to offer it,” said Alice angrily.",
+        "context_ids": [
+          "alice-1865-p023-b000",
+          "alice-1865-p021-b000"
+        ],
+        "latency_ms": 43.4
+      },
+      {
+        "event": "answer",
+        "tool": "finalize"
+      }
+    ],
+    "context": "[alice-1865-p023-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 23 | Chapter VII - A Mad Tea-Party]\n“Yes, please do!” pleaded Alice.\n\n“And be quick about it,” added the Hatter, “or you’ll be asleep again before it’s done.”\n\n“Once upon a time there were three little sisters,” the Dormouse began in a great hurry; “and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—”\n\n“What did they live on?” said Alice, who always took a great interest in questions of eating and drinking.\n\n“They lived on treacle,” said the Dormouse, after thinking a minute or two.\n\n“They couldn’t have done that, you know,” Alice gently remarked; “they’d have been ill.”\n\n“So they were,” said the Dormouse; “_very_ ill.”\n\nAlice tried to fancy to herself what such an extraordinary way of living would be like, but it puzzled her too much, so she went on: “But why did they live at the bottom of a well?”\n\n“Take some more tea,” the March Hare said to Alice, very earnestly.\n\n“I’ve had nothing yet,” Alice replied in an offended tone, “so I can’t take more.”\n\n[alice-1865-p021-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 21 | Chapter VII - A Mad Tea-Party]\nThere was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head. “Very uncomfortable for the Dormouse,” thought Alice; “only, as it’s asleep, I suppose it doesn’t mind.”\n\nThe table was a large one, but the three were all crowded together at one corner of it: “No room! No room!” they cried out when they saw Alice coming. “There’s _plenty_ of room!” said Alice indignantly, and she sat down in a large arm-chair at one end of the table.\n\n“Have some wine,” the March Hare said in an encouraging tone.\n\nAlice looked all round the table, but there was nothing on it but tea. “I don’t see any wine,” she remarked.\n\n“There isn’t any,” said the March Hare.\n\n“Then it wasn’t very civil of you to offer it,” said Alice angrily.",
+    "context_ids": [
+      "alice-1865-p023-b000",
+      "alice-1865-p021-b000"
+    ],
+    "context_chunks": [
+      {
+        "id": "alice-1865-p023-b000",
+        "text": "“Yes, please do!” pleaded Alice.\n\n“And be quick about it,” added the Hatter, “or you’ll be asleep again before it’s done.”\n\n“Once upon a time there were three little sisters,” the Dormouse began in a great hurry; “and their names were Elsie, Lacie, and Tillie; and they lived at the bottom of a well—”\n\n“What did they live on?” said Alice, who always took a great interest in questions of eating and drinking.\n\n“They lived on treacle,” said the Dormouse, after thinking a minute or two.\n\n“They couldn’t have done that, you know,” Alice gently remarked; “they’d have been ill.”\n\n“So they were,” said the Dormouse; “_very_ ill.”\n\nAlice tried to fancy to herself what such an extraordinary way of living would be like, but it puzzled her too much, so she went on: “But why did they live at the bottom of a well?”\n\n“Take some more tea,” the March Hare said to Alice, very earnestly.\n\n“I’ve had nothing yet,” Alice replied in an offended tone, “so I can’t take more.”",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 23,
+        "metadata": {
+          "page": 23,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "VII",
+          "section": "Chapter VII - A Mad Tea-Party",
+          "language": "en",
+          "char_count": 5050,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter VII - A Mad Tea-Party",
+        "score": 0.6677487094552106,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "alice-1865-p021-b000",
+        "text": "There was a table set out under a tree in front of the house, and the March Hare and the Hatter were having tea at it: a Dormouse was sitting between them, fast asleep, and the other two were using it as a cushion, resting their elbows on it, and talking over its head. “Very uncomfortable for the Dormouse,” thought Alice; “only, as it’s asleep, I suppose it doesn’t mind.”\n\nThe table was a large one, but the three were all crowded together at one corner of it: “No room! No room!” they cried out when they saw Alice coming. “There’s _plenty_ of room!” said Alice indignantly, and she sat down in a large arm-chair at one end of the table.\n\n“Have some wine,” the March Hare said in an encouraging tone.\n\nAlice looked all round the table, but there was nothing on it but tea. “I don’t see any wine,” she remarked.\n\n“There isn’t any,” said the March Hare.\n\n“Then it wasn’t very civil of you to offer it,” said Alice angrily.",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 21,
+        "metadata": {
+          "page": 21,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "VII",
+          "section": "Chapter VII - A Mad Tea-Party",
+          "language": "en",
+          "char_count": 3798,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter VII - A Mad Tea-Party",
+        "score": 0.5864961886710877,
+        "rank": 2,
+        "method": "dense"
+      }
+    ],
+    "tool_calls": 1,
+    "searches": 1,
+    "stop_reason": "answer",
+    "latency_ms": 8986.0,
+    "llm_calls": 3,
+    "usage": {
+      "prompt_tokens": 4230,
+      "completion_tokens": 280,
+      "total_tokens": 4510,
+      "list_cost_usd": 0.0004449899999999999
+    },
+    "config": "baseline",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 23,
+        "evidence": "their names were Elsie, Lacie, and Tillie"
+      }
+    ],
+    "expected_answer": "Elsie, Lacie, and Tillie."
+  },
+  {
+    "query_id": "t04",
+    "split": "test",
+    "question": "Where is the Mock Turtle sitting when Alice and the Gryphon first see him?",
+    "status": "answered",
+    "answer": "The Mock Turtle was sitting sad and lonely on a little ledge of rock, seen in the distance [alice-1865-p030-b000].",
+    "citations": [
+      "alice-1865-p030-b000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "Mock Turtle sitting sorrowful Gryphon Alice first saw",
+        "section": null,
+        "top_k": 5,
+        "results": [
+          {
+            "id": "alice-1865-p030-b000",
+            "page": 30,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.7519029078599324,
+            "rank": 1
+          },
+          {
+            "id": "alice-1865-p033-b001",
+            "page": 33,
+            "section": "Chapter X - The Lobster Quadrille",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.7039107294056115,
+            "rank": 2
+          },
+          {
+            "id": "alice-1865-p031-b000",
+            "page": 31,
+            "section": "Chapter X - The Lobster Quadrille",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.7031200286006893,
+            "rank": 3
+          },
+          {
+            "id": "alice-1865-p029-b003",
+            "page": 29,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6940796971321155,
+            "rank": 4
+          },
+          {
+            "id": "alice-1865-p030-b001",
+            "page": 30,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6825038398058443,
+            "rank": 5
+          }
+        ],
+        "context": "[alice-1865-p030-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 30 | Chapter IX - The Mock Turtle’s Story]\nThey had not gone far before they saw the Mock Turtle in the distance, sitting sad and lonely on a little ledge of rock, and, as they came nearer, Alice could hear him sighing as if his heart would break. She pitied him deeply. “What is his sorrow?” she asked the Gryphon, and the Gryphon answered, very nearly in the same words as before, “It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!”\n\nSo they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing.\n\n“This here young lady,” said the Gryphon, “she wants for to know your history, she do.”\n\n“I’ll tell it her,” said the Mock Turtle in a deep, hollow tone: “sit down, both of you, and don’t speak a word till I’ve finished.”\n\nSo they sat down, and nobody spoke for some minutes. Alice thought to herself, “I don’t see how he can _ever_ finish, if he doesn’t begin.” But she waited patiently.\n\n“Once,” said the Mock Turtle at last, with a deep sigh, “I was a real Turtle.”\n\n[alice-1865-p033-b001 | https://www.gutenberg.org/files/11/11-0.txt | page 33 | Chapter X - The Lobster Quadrille]\nAlice said nothing; she had sat down with her face in her hands, wondering if anything would _ever_ happen in a natural way again.\n\n“I should like to have it explained,” said the Mock Turtle.\n\n“She can’t explain it,” said the Gryphon hastily. “Go on with the next verse.”\n\n“But about his toes?” the Mock Turtle persisted. “How _could_ he turn them out with his nose, you know?”\n\n“It’s the first position in dancing.” Alice said; but was dreadfully puzzled by the whole thing, and longed to change the subject.\n\n“Go on with the next verse,” the Gryphon repeated impatiently: “it begins ‘_I passed by his garden_.’”\n\nAlice did not dare to disobey, though she felt sure it would all come wrong, and she went on in a trembling voice:—\n\n“I passed by his garden, and marked, with one eye, How the Owl and the Panther were sharing a pie—”",
+        "context_ids": [
+          "alice-1865-p030-b000",
+          "alice-1865-p033-b001"
+        ],
+        "latency_ms": 54.7
+      },
+      {
+        "event": "answer",
+        "tool": "finalize"
+      }
+    ],
+    "context": "[alice-1865-p030-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 30 | Chapter IX - The Mock Turtle’s Story]\nThey had not gone far before they saw the Mock Turtle in the distance, sitting sad and lonely on a little ledge of rock, and, as they came nearer, Alice could hear him sighing as if his heart would break. She pitied him deeply. “What is his sorrow?” she asked the Gryphon, and the Gryphon answered, very nearly in the same words as before, “It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!”\n\nSo they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing.\n\n“This here young lady,” said the Gryphon, “she wants for to know your history, she do.”\n\n“I’ll tell it her,” said the Mock Turtle in a deep, hollow tone: “sit down, both of you, and don’t speak a word till I’ve finished.”\n\nSo they sat down, and nobody spoke for some minutes. Alice thought to herself, “I don’t see how he can _ever_ finish, if he doesn’t begin.” But she waited patiently.\n\n“Once,” said the Mock Turtle at last, with a deep sigh, “I was a real Turtle.”\n\n[alice-1865-p033-b001 | https://www.gutenberg.org/files/11/11-0.txt | page 33 | Chapter X - The Lobster Quadrille]\nAlice said nothing; she had sat down with her face in her hands, wondering if anything would _ever_ happen in a natural way again.\n\n“I should like to have it explained,” said the Mock Turtle.\n\n“She can’t explain it,” said the Gryphon hastily. “Go on with the next verse.”\n\n“But about his toes?” the Mock Turtle persisted. “How _could_ he turn them out with his nose, you know?”\n\n“It’s the first position in dancing.” Alice said; but was dreadfully puzzled by the whole thing, and longed to change the subject.\n\n“Go on with the next verse,” the Gryphon repeated impatiently: “it begins ‘_I passed by his garden_.’”\n\nAlice did not dare to disobey, though she felt sure it would all come wrong, and she went on in a trembling voice:—\n\n“I passed by his garden, and marked, with one eye, How the Owl and the Panther were sharing a pie—”",
+    "context_ids": [
+      "alice-1865-p030-b000",
+      "alice-1865-p033-b001"
+    ],
+    "context_chunks": [
+      {
+        "id": "alice-1865-p030-b000",
+        "text": "They had not gone far before they saw the Mock Turtle in the distance, sitting sad and lonely on a little ledge of rock, and, as they came nearer, Alice could hear him sighing as if his heart would break. She pitied him deeply. “What is his sorrow?” she asked the Gryphon, and the Gryphon answered, very nearly in the same words as before, “It’s all his fancy, that: he hasn’t got no sorrow, you know. Come on!”\n\nSo they went up to the Mock Turtle, who looked at them with large eyes full of tears, but said nothing.\n\n“This here young lady,” said the Gryphon, “she wants for to know your history, she do.”\n\n“I’ll tell it her,” said the Mock Turtle in a deep, hollow tone: “sit down, both of you, and don’t speak a word till I’ve finished.”\n\nSo they sat down, and nobody spoke for some minutes. Alice thought to herself, “I don’t see how he can _ever_ finish, if he doesn’t begin.” But she waited patiently.\n\n“Once,” said the Mock Turtle at last, with a deep sigh, “I was a real Turtle.”",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 30,
+        "metadata": {
+          "page": 30,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "IX",
+          "section": "Chapter IX - The Mock Turtle’s Story",
+          "language": "en",
+          "char_count": 5198,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter IX - The Mock Turtle’s Story",
+        "score": 0.7519029078599324,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "alice-1865-p033-b001",
+        "text": "Alice said nothing; she had sat down with her face in her hands, wondering if anything would _ever_ happen in a natural way again.\n\n“I should like to have it explained,” said the Mock Turtle.\n\n“She can’t explain it,” said the Gryphon hastily. “Go on with the next verse.”\n\n“But about his toes?” the Mock Turtle persisted. “How _could_ he turn them out with his nose, you know?”\n\n“It’s the first position in dancing.” Alice said; but was dreadfully puzzled by the whole thing, and longed to change the subject.\n\n“Go on with the next verse,” the Gryphon repeated impatiently: “it begins ‘_I passed by his garden_.’”\n\nAlice did not dare to disobey, though she felt sure it would all come wrong, and she went on in a trembling voice:—\n\n“I passed by his garden, and marked, with one eye, How the Owl and the Panther were sharing a pie—”",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 33,
+        "metadata": {
+          "page": 33,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "X",
+          "section": "Chapter X - The Lobster Quadrille",
+          "language": "en",
+          "char_count": 3858,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter X - The Lobster Quadrille",
+        "score": 0.7039107294056115,
+        "rank": 2,
+        "method": "dense"
+      }
+    ],
+    "tool_calls": 1,
+    "searches": 1,
+    "stop_reason": "answer",
+    "latency_ms": 8362.5,
+    "llm_calls": 3,
+    "usage": {
+      "prompt_tokens": 4071,
+      "completion_tokens": 268,
+      "total_tokens": 4339,
+      "list_cost_usd": 0.00041394
+    },
+    "config": "baseline",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 30,
+        "evidence": "sitting sad and lonely on a little ledge of rock"
+      }
+    ],
+    "expected_answer": "On a little ledge of rock."
+  },
+  {
+    "query_id": "t05",
+    "split": "test",
+    "question": "How do the officers of the court suppress the guinea-pig that cheers?",
+    "status": "answered",
+    "answer": "When one of the guinea-pigs cheered, it was immediately suppressed by the officers of the court: they had a large canvas bag, tied up at the mouth with strings; into this they slipped the guinea-pig head first, and then sat upon it [alice-1865-p036-b000]. The other guinea-pig then cheered and was likewise suppressed [alice-1865-p036-b001].",
+    "citations": [
+      "alice-1865-p036-b000",
+      "alice-1865-p036-b001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "guinea-pig cheered suppressed by officers of the court",
+        "section": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "alice-1865-p036-b000",
+            "page": 36,
+            "section": "Chapter XI - Who Stole the Tarts?",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6966189922917502,
+            "rank": 1
+          },
+          {
+            "id": "alice-1865-p036-b001",
+            "page": 36,
+            "section": "Chapter XI - Who Stole the Tarts?",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6321861367114712,
+            "rank": 2
+          },
+          {
+            "id": "alice-1865-p034-b002",
+            "page": 34,
+            "section": "Chapter XI - Who Stole the Tarts?",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5803169185017624,
+            "rank": 3
+          },
+          {
+            "id": "alice-1865-p029-b003",
+            "page": 29,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5572889183335862,
+            "rank": 4
+          },
+          {
+            "id": "alice-1865-p027-b000",
+            "page": 27,
+            "section": "Chapter VIII - The Queen’s Croquet-Ground",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5569353699684143,
+            "rank": 5
+          },
+          {
+            "id": "alice-1865-p019-b001",
+            "page": 19,
+            "section": "Chapter VI - Pig and Pepper",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5492994457900864,
+            "rank": 6
+          },
+          {
+            "id": "alice-1865-p034-b003",
+            "page": 34,
+            "section": "Chapter XI - Who Stole the Tarts?",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5487918853759766,
+            "rank": 7
+          },
+          {
+            "id": "alice-1865-p025-b002",
+            "page": 25,
+            "section": "Chapter VIII - The Queen’s Croquet-Ground",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5419359753208228,
+            "rank": 8
+          },
+          {
+            "id": "alice-1865-p018-b000",
+            "page": 18,
+            "section": "Chapter VI - Pig and Pepper",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5347083806991577,
+            "rank": 9
+          },
+          {
+            "id": "alice-1865-p034-b001",
+            "page": 34,
+            "section": "Chapter XI - Who Stole the Tarts?",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5342893918925171,
+            "rank": 10
+          }
+        ],
+        "context": "[alice-1865-p036-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 36 | Chapter XI - Who Stole the Tarts?]\nThe miserable Hatter dropped his teacup and bread-and-butter, and went down on one knee. “I’m a poor man, your Majesty,” he began.\n\n“You’re a _very_ poor _speaker_,” said the King.\n\nHere one of the guinea-pigs cheered, and was immediately suppressed by the officers of the court. (As that is rather a hard word, I will just explain to you how it was done. They had a large canvas bag, which tied up at the mouth with strings: into this they slipped the guinea-pig, head first, and then sat upon it.)\n\n“I’m glad I’ve seen that done,” thought Alice. “I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now.”\n\n“If that’s all you know about it, you may stand down,” continued the King.\n\n“I can’t go no lower,” said the Hatter: “I’m on the floor, as it is.”\n\n“Then you may _sit_ down,” the King replied.\n\n[alice-1865-p036-b001 | https://www.gutenberg.org/files/11/11-0.txt | page 36 | Chapter XI - Who Stole the Tarts?]\nHere the other guinea-pig cheered, and was suppressed.\n\n“Come, that finished the guinea-pigs!” thought Alice. “Now we shall get on better.”\n\n“I’d rather finish my tea,” said the Hatter, with an anxious look at the Queen, who was reading the list of singers.\n\n“You may go,” said the King, and the Hatter hurriedly left the court, without even waiting to put his shoes on.\n\n“—and just take his head off outside,” the Queen added to one of the officers: but the Hatter was out of sight before the officer could get to the door.\n\n“Call the next witness!” said the King.\n\nThe next witness was the Duchess’s cook. She carried the pepper-box in her hand, and Alice guessed who it was, even before she got into the court, by the way the people near the door began sneezing all at once.\n\n“Give your evidence,” said the King.\n\n“Shan’t,” said the cook.\n\nThe King looked anxiously at the White Rabbit, who said in a low voice, “Your Majesty must cross-examine _this_ witness.”",
+        "context_ids": [
+          "alice-1865-p036-b000",
+          "alice-1865-p036-b001"
+        ],
+        "latency_ms": 46.3
+      },
+      {
+        "event": "answer",
+        "tool": "finalize"
+      }
+    ],
+    "context": "[alice-1865-p036-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 36 | Chapter XI - Who Stole the Tarts?]\nThe miserable Hatter dropped his teacup and bread-and-butter, and went down on one knee. “I’m a poor man, your Majesty,” he began.\n\n“You’re a _very_ poor _speaker_,” said the King.\n\nHere one of the guinea-pigs cheered, and was immediately suppressed by the officers of the court. (As that is rather a hard word, I will just explain to you how it was done. They had a large canvas bag, which tied up at the mouth with strings: into this they slipped the guinea-pig, head first, and then sat upon it.)\n\n“I’m glad I’ve seen that done,” thought Alice. “I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now.”\n\n“If that’s all you know about it, you may stand down,” continued the King.\n\n“I can’t go no lower,” said the Hatter: “I’m on the floor, as it is.”\n\n“Then you may _sit_ down,” the King replied.\n\n[alice-1865-p036-b001 | https://www.gutenberg.org/files/11/11-0.txt | page 36 | Chapter XI - Who Stole the Tarts?]\nHere the other guinea-pig cheered, and was suppressed.\n\n“Come, that finished the guinea-pigs!” thought Alice. “Now we shall get on better.”\n\n“I’d rather finish my tea,” said the Hatter, with an anxious look at the Queen, who was reading the list of singers.\n\n“You may go,” said the King, and the Hatter hurriedly left the court, without even waiting to put his shoes on.\n\n“—and just take his head off outside,” the Queen added to one of the officers: but the Hatter was out of sight before the officer could get to the door.\n\n“Call the next witness!” said the King.\n\nThe next witness was the Duchess’s cook. She carried the pepper-box in her hand, and Alice guessed who it was, even before she got into the court, by the way the people near the door began sneezing all at once.\n\n“Give your evidence,” said the King.\n\n“Shan’t,” said the cook.\n\nThe King looked anxiously at the White Rabbit, who said in a low voice, “Your Majesty must cross-examine _this_ witness.”",
+    "context_ids": [
+      "alice-1865-p036-b000",
+      "alice-1865-p036-b001"
+    ],
+    "context_chunks": [
+      {
+        "id": "alice-1865-p036-b000",
+        "text": "The miserable Hatter dropped his teacup and bread-and-butter, and went down on one knee. “I’m a poor man, your Majesty,” he began.\n\n“You’re a _very_ poor _speaker_,” said the King.\n\nHere one of the guinea-pigs cheered, and was immediately suppressed by the officers of the court. (As that is rather a hard word, I will just explain to you how it was done. They had a large canvas bag, which tied up at the mouth with strings: into this they slipped the guinea-pig, head first, and then sat upon it.)\n\n“I’m glad I’ve seen that done,” thought Alice. “I’ve so often read in the newspapers, at the end of trials, “There was some attempts at applause, which was immediately suppressed by the officers of the court,” and I never understood what it meant till now.”\n\n“If that’s all you know about it, you may stand down,” continued the King.\n\n“I can’t go no lower,” said the Hatter: “I’m on the floor, as it is.”\n\n“Then you may _sit_ down,” the King replied.",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 36,
+        "metadata": {
+          "page": 36,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "XI",
+          "section": "Chapter XI - Who Stole the Tarts?",
+          "language": "en",
+          "char_count": 3041,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter XI - Who Stole the Tarts?",
+        "score": 0.6966189922917502,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "alice-1865-p036-b001",
+        "text": "Here the other guinea-pig cheered, and was suppressed.\n\n“Come, that finished the guinea-pigs!” thought Alice. “Now we shall get on better.”\n\n“I’d rather finish my tea,” said the Hatter, with an anxious look at the Queen, who was reading the list of singers.\n\n“You may go,” said the King, and the Hatter hurriedly left the court, without even waiting to put his shoes on.\n\n“—and just take his head off outside,” the Queen added to one of the officers: but the Hatter was out of sight before the officer could get to the door.\n\n“Call the next witness!” said the King.\n\nThe next witness was the Duchess’s cook. She carried the pepper-box in her hand, and Alice guessed who it was, even before she got into the court, by the way the people near the door began sneezing all at once.\n\n“Give your evidence,” said the King.\n\n“Shan’t,” said the cook.\n\nThe King looked anxiously at the White Rabbit, who said in a low voice, “Your Majesty must cross-examine _this_ witness.”",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 36,
+        "metadata": {
+          "page": 36,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "XI",
+          "section": "Chapter XI - Who Stole the Tarts?",
+          "language": "en",
+          "char_count": 3041,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter XI - Who Stole the Tarts?",
+        "score": 0.6321861367114712,
+        "rank": 2,
+        "method": "dense"
+      }
+    ],
+    "tool_calls": 1,
+    "searches": 1,
+    "stop_reason": "answer",
+    "latency_ms": 9031.4,
+    "llm_calls": 3,
+    "usage": {
+      "prompt_tokens": 4445,
+      "completion_tokens": 363,
+      "total_tokens": 4808,
+      "list_cost_usd": 0.0005270400000000003
+    },
+    "config": "baseline",
+    "gold": [
+      {
+        "source_id": "alice-1865",
+        "page": 36,
+        "evidence": "They had a large canvas bag, which tied up at the mouth with strings: into this they slipped the guinea-pig, head first, and then sat upon it."
+      }
+    ],
+    "expected_answer": "They put it head first into a canvas bag tied at the mouth and sit on it."
+  },
+  {
+    "query_id": "u03",
+    "split": "test",
+    "question": "What name does the Duchess give her baby?",
+    "status": "abstain",
+    "answer": "Insufficient evidence in the retrieved context.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "Duchess baby name",
+        "section": null,
+        "top_k": 10,
+        "results": [
+          {
+            "id": "alice-1865-p018-b003",
+            "page": 18,
+            "section": "Chapter VI - Pig and Pepper",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5579150416331018,
+            "rank": 1
+          },
+          {
+            "id": "alice-1865-p029-b000",
+            "page": 29,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5572982362153288,
+            "rank": 2
+          },
+          {
+            "id": "alice-1865-p028-b004",
+            "page": 28,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5523086127867007,
+            "rank": 3
+          },
+          {
+            "id": "alice-1865-p028-b001",
+            "page": 28,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5511243014857677,
+            "rank": 4
+          },
+          {
+            "id": "alice-1865-p028-b000",
+            "page": 28,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5426339728890716,
+            "rank": 5
+          },
+          {
+            "id": "alice-1865-p018-b000",
+            "page": 18,
+            "section": "Chapter VI - Pig and Pepper",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5279849734324286,
+            "rank": 6
+          },
+          {
+            "id": "alice-1865-p018-b001",
+            "page": 18,
+            "section": "Chapter VI - Pig and Pepper",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.525844768459958,
+            "rank": 7
+          },
+          {
+            "id": "alice-1865-p028-b003",
+            "page": 28,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5167718067671291,
+            "rank": 8
+          },
+          {
+            "id": "alice-1865-p028-b002",
+            "page": 28,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5089012969849984,
+            "rank": 9
+          },
+          {
+            "id": "alice-1865-p017-b000",
+            "page": 17,
+            "section": "Chapter VI - Pig and Pepper",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.5086963166360514,
+            "rank": 10
+          }
+        ],
+        "context": "[alice-1865-p018-b003 | https://www.gutenberg.org/files/11/11-0.txt | page 18 | Chapter VI - Pig and Pepper]\n“Speak roughly to your little boy, And beat him when he sneezes: He only does it to annoy, Because he knows it teases.”\n\nCHORUS. (In which the cook and the baby joined):\n\n“Wow! wow! wow!”\n\nWhile the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:—\n\n“I speak severely to my boy, I beat him when he sneezes; For he can thoroughly enjoy The pepper when he pleases!”\n\nCHORUS.\n\n“Wow! wow! wow!”\n\n“Here! you may nurse it a bit, if you like!” the Duchess said to Alice, flinging the baby at her as she spoke. “I must go and get ready to play croquet with the Queen,” and she hurried out of the room. The cook threw a frying-pan after her as she went out, but it just missed her.\n\n[alice-1865-p029-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 29 | Chapter IX - The Mock Turtle’s Story]\n“Pray don’t trouble yourself to say it any longer than that,” said Alice.\n\n“Oh, don’t talk about trouble!” said the Duchess. “I make you a present of everything I’ve said as yet.”\n\n“A cheap sort of present!” thought Alice. “I’m glad they don’t give birthday presents like that!” But she did not venture to say it out loud.\n\n“Thinking again?” the Duchess asked, with another dig of her sharp little chin.\n\n“I’ve a right to think,” said Alice sharply, for she was beginning to feel a little worried.\n\n“Just about as much right,” said the Duchess, “as pigs have to fly; and the m—”\n\nBut here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral,’ and the arm that was linked into hers began to tremble. Alice looked up, and there stood the Queen in front of them, with her arms folded, frowning like a thunderstorm.\n\n“A fine day, your Majesty!” the Duchess began in a low, weak voice.\n\n[alice-1865-p028-b004 | https://www.gutenberg.org/files/11/11-0.txt | page 28 | Chapter IX - The Mock Turtle’s Story]\n“That’s nothing to what I could say if I chose,” the Duchess replied, in a pleased tone.",
+        "context_ids": [
+          "alice-1865-p018-b003",
+          "alice-1865-p029-b000",
+          "alice-1865-p028-b004"
+        ],
+        "latency_ms": 49.4
+      },
+      {
+        "event": "invalid_or_missing_citations"
+      }
+    ],
+    "context": "[alice-1865-p018-b003 | https://www.gutenberg.org/files/11/11-0.txt | page 18 | Chapter VI - Pig and Pepper]\n“Speak roughly to your little boy, And beat him when he sneezes: He only does it to annoy, Because he knows it teases.”\n\nCHORUS. (In which the cook and the baby joined):\n\n“Wow! wow! wow!”\n\nWhile the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:—\n\n“I speak severely to my boy, I beat him when he sneezes; For he can thoroughly enjoy The pepper when he pleases!”\n\nCHORUS.\n\n“Wow! wow! wow!”\n\n“Here! you may nurse it a bit, if you like!” the Duchess said to Alice, flinging the baby at her as she spoke. “I must go and get ready to play croquet with the Queen,” and she hurried out of the room. The cook threw a frying-pan after her as she went out, but it just missed her.\n\n[alice-1865-p029-b000 | https://www.gutenberg.org/files/11/11-0.txt | page 29 | Chapter IX - The Mock Turtle’s Story]\n“Pray don’t trouble yourself to say it any longer than that,” said Alice.\n\n“Oh, don’t talk about trouble!” said the Duchess. “I make you a present of everything I’ve said as yet.”\n\n“A cheap sort of present!” thought Alice. “I’m glad they don’t give birthday presents like that!” But she did not venture to say it out loud.\n\n“Thinking again?” the Duchess asked, with another dig of her sharp little chin.\n\n“I’ve a right to think,” said Alice sharply, for she was beginning to feel a little worried.\n\n“Just about as much right,” said the Duchess, “as pigs have to fly; and the m—”\n\nBut here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral,’ and the arm that was linked into hers began to tremble. Alice looked up, and there stood the Queen in front of them, with her arms folded, frowning like a thunderstorm.\n\n“A fine day, your Majesty!” the Duchess began in a low, weak voice.\n\n[alice-1865-p028-b004 | https://www.gutenberg.org/files/11/11-0.txt | page 28 | Chapter IX - The Mock Turtle’s Story]\n“That’s nothing to what I could say if I chose,” the Duchess replied, in a pleased tone.",
+    "context_ids": [
+      "alice-1865-p018-b003",
+      "alice-1865-p029-b000",
+      "alice-1865-p028-b004"
+    ],
+    "context_chunks": [
+      {
+        "id": "alice-1865-p018-b003",
+        "text": "“Speak roughly to your little boy, And beat him when he sneezes: He only does it to annoy, Because he knows it teases.”\n\nCHORUS. (In which the cook and the baby joined):\n\n“Wow! wow! wow!”\n\nWhile the Duchess sang the second verse of the song, she kept tossing the baby violently up and down, and the poor little thing howled so, that Alice could hardly hear the words:—\n\n“I speak severely to my boy, I beat him when he sneezes; For he can thoroughly enjoy The pepper when he pleases!”\n\nCHORUS.\n\n“Wow! wow! wow!”\n\n“Here! you may nurse it a bit, if you like!” the Duchess said to Alice, flinging the baby at her as she spoke. “I must go and get ready to play croquet with the Queen,” and she hurried out of the room. The cook threw a frying-pan after her as she went out, but it just missed her.",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 18,
+        "metadata": {
+          "page": 18,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "VI",
+          "section": "Chapter VI - Pig and Pepper",
+          "language": "en",
+          "char_count": 3570,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter VI - Pig and Pepper",
+        "score": 0.5579150416331018,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "alice-1865-p029-b000",
+        "text": "“Pray don’t trouble yourself to say it any longer than that,” said Alice.\n\n“Oh, don’t talk about trouble!” said the Duchess. “I make you a present of everything I’ve said as yet.”\n\n“A cheap sort of present!” thought Alice. “I’m glad they don’t give birthday presents like that!” But she did not venture to say it out loud.\n\n“Thinking again?” the Duchess asked, with another dig of her sharp little chin.\n\n“I’ve a right to think,” said Alice sharply, for she was beginning to feel a little worried.\n\n“Just about as much right,” said the Duchess, “as pigs have to fly; and the m—”\n\nBut here, to Alice’s great surprise, the Duchess’s voice died away, even in the middle of her favourite word ‘moral,’ and the arm that was linked into hers began to tremble. Alice looked up, and there stood the Queen in front of them, with her arms folded, frowning like a thunderstorm.\n\n“A fine day, your Majesty!” the Duchess began in a low, weak voice.",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 29,
+        "metadata": {
+          "page": 29,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "IX",
+          "section": "Chapter IX - The Mock Turtle’s Story",
+          "language": "en",
+          "char_count": 3591,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter IX - The Mock Turtle’s Story",
+        "score": 0.5572982362153288,
+        "rank": 2,
+        "method": "dense"
+      },
+      {
+        "id": "alice-1865-p028-b004",
+        "text": "“That’s nothing to what I could say if I chose,” the Duchess replied, in a pleased tone.",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 28,
+        "metadata": {
+          "page": 28,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "IX",
+          "section": "Chapter IX - The Mock Turtle’s Story",
+          "language": "en",
+          "char_count": 3800,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter IX - The Mock Turtle’s Story",
+        "score": 0.5523086127867007,
+        "rank": 3,
+        "method": "dense"
+      }
+    ],
+    "tool_calls": 1,
+    "searches": 1,
+    "stop_reason": "abstain",
+    "latency_ms": 11244.7,
+    "llm_calls": 2,
+    "usage": {
+      "prompt_tokens": 3340,
+      "completion_tokens": 481,
+      "total_tokens": 3821,
+      "list_cost_usd": 0.0005637999999999997
+    },
+    "config": "baseline"
+  },
+  {
+    "query_id": "u04",
+    "split": "test",
+    "question": "How many years did the Mock Turtle spend at school?",
+    "status": "abstain",
+    "answer": "Insufficient evidence in the retrieved context.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "Mock Turtle school day-school years lessons",
+        "section": null,
+        "top_k": 8,
+        "results": [
+          {
+            "id": "alice-1865-p030-b005",
+            "page": 30,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.7550962263231061,
+            "rank": 1
+          },
+          {
+            "id": "alice-1865-p030-b002",
+            "page": 30,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6933571465781802,
+            "rank": 2
+          },
+          {
+            "id": "alice-1865-p031-b002",
+            "page": 31,
+            "section": "Chapter X - The Lobster Quadrille",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6588667049050274,
+            "rank": 3
+          },
+          {
+            "id": "alice-1865-p031-b001",
+            "page": 31,
+            "section": "Chapter X - The Lobster Quadrille",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.657743613988927,
+            "rank": 4
+          },
+          {
+            "id": "alice-1865-p030-b004",
+            "page": 30,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6539894961137492,
+            "rank": 5
+          },
+          {
+            "id": "alice-1865-p030-b003",
+            "page": 30,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6468581382205367,
+            "rank": 6
+          },
+          {
+            "id": "alice-1865-p030-b001",
+            "page": 30,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.632022719620995,
+            "rank": 7
+          },
+          {
+            "id": "alice-1865-p033-b003",
+            "page": 33,
+            "section": "Chapter X - The Lobster Quadrille",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6307537243953408,
+            "rank": 8
+          }
+        ],
+        "context": "[alice-1865-p030-b005 | https://www.gutenberg.org/files/11/11-0.txt | page 30 | Chapter IX - The Mock Turtle’s Story]\n“Ten hours the first day,” said the Mock Turtle: “nine the next, and so on.”\n\n“What a curious plan!” exclaimed Alice.\n\n“That’s the reason they’re called lessons,” the Gryphon remarked: “because they lessen from day to day.”\n\nThis was quite a new idea to Alice, and she thought it over a little before she made her next remark. “Then the eleventh day must have been a holiday?”\n\n“Of course it was,” said the Mock Turtle.\n\n“And how did you manage on the twelfth?” Alice went on eagerly.\n\n“That’s enough about lessons,” the Gryphon interrupted in a very decided tone: “tell her something about the games now.”\n\n[alice-1865-p030-b002 | https://www.gutenberg.org/files/11/11-0.txt | page 30 | Chapter IX - The Mock Turtle’s Story]\n“You ought to be ashamed of yourself for asking such a simple question,” added the Gryphon; and then they both sat silent and looked at poor Alice, who felt ready to sink into the earth. At last the Gryphon said to the Mock Turtle, “Drive on, old fellow! Don’t be all day about it!” and he went on in these words:\n\n“Yes, we went to school in the sea, though you mayn’t believe it—”\n\n“I never said I didn’t!” interrupted Alice.\n\n“You did,” said the Mock Turtle.\n\n“Hold your tongue!” added the Gryphon, before Alice could speak again. The Mock Turtle went on.\n\n“We had the best of educations—in fact, we went to school every day—”\n\n“_I’ve_ been to a day-school, too,” said Alice; “you needn’t be so proud as all that.”\n\n“With extras?” asked the Mock Turtle a little anxiously.\n\n“Yes,” said Alice, “we learned French and music.”\n\n“And washing?” said the Mock Turtle.\n\n“Certainly not!” said Alice indignantly.",
+        "context_ids": [
+          "alice-1865-p030-b005",
+          "alice-1865-p030-b002"
+        ],
+        "latency_ms": 55.5
+      },
+      {
+        "event": "search",
+        "tool": "search",
+        "query": "\"how many years\" Mock Turtle school",
+        "section": null,
+        "top_k": 8,
+        "results": [
+          {
+            "id": "alice-1865-p030-b005",
+            "page": 30,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.7067139569946514,
+            "rank": 1
+          },
+          {
+            "id": "alice-1865-p030-b002",
+            "page": 30,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6434216882837837,
+            "rank": 2
+          },
+          {
+            "id": "alice-1865-p030-b004",
+            "page": 30,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6381705403327987,
+            "rank": 3
+          },
+          {
+            "id": "alice-1865-p031-b001",
+            "page": 31,
+            "section": "Chapter X - The Lobster Quadrille",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6369687102418381,
+            "rank": 4
+          },
+          {
+            "id": "alice-1865-p030-b001",
+            "page": 30,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6352776639577249,
+            "rank": 5
+          },
+          {
+            "id": "alice-1865-p031-b002",
+            "page": 31,
+            "section": "Chapter X - The Lobster Quadrille",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6245111227035567,
+            "rank": 6
+          },
+          {
+            "id": "alice-1865-p030-b003",
+            "page": 30,
+            "section": "Chapter IX - The Mock Turtle’s Story",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.6226072086457746,
+            "rank": 7
+          },
+          {
+            "id": "alice-1865-p033-b001",
+            "page": 33,
+            "section": "Chapter X - The Lobster Quadrille",
+            "source": "https://www.gutenberg.org/files/11/11-0.txt",
+            "score": 0.596641808247836,
+            "rank": 8
+          }
+        ],
+        "context": "[alice-1865-p030-b005 | https://www.gutenberg.org/files/11/11-0.txt | page 30 | Chapter IX - The Mock Turtle’s Story]\n“Ten hours the first day,” said the Mock Turtle: “nine the next, and so on.”\n\n“What a curious plan!” exclaimed Alice.\n\n“That’s the reason they’re called lessons,” the Gryphon remarked: “because they lessen from day to day.”\n\nThis was quite a new idea to Alice, and she thought it over a little before she made her next remark. “Then the eleventh day must have been a holiday?”\n\n“Of course it was,” said the Mock Turtle.\n\n“And how did you manage on the twelfth?” Alice went on eagerly.\n\n“That’s enough about lessons,” the Gryphon interrupted in a very decided tone: “tell her something about the games now.”\n\n[alice-1865-p030-b002 | https://www.gutenberg.org/files/11/11-0.txt | page 30 | Chapter IX - The Mock Turtle’s Story]\n“You ought to be ashamed of yourself for asking such a simple question,” added the Gryphon; and then they both sat silent and looked at poor Alice, who felt ready to sink into the earth. At last the Gryphon said to the Mock Turtle, “Drive on, old fellow! Don’t be all day about it!” and he went on in these words:\n\n“Yes, we went to school in the sea, though you mayn’t believe it—”\n\n“I never said I didn’t!” interrupted Alice.\n\n“You did,” said the Mock Turtle.\n\n“Hold your tongue!” added the Gryphon, before Alice could speak again. The Mock Turtle went on.\n\n“We had the best of educations—in fact, we went to school every day—”\n\n“_I’ve_ been to a day-school, too,” said Alice; “you needn’t be so proud as all that.”\n\n“With extras?” asked the Mock Turtle a little anxiously.\n\n“Yes,” said Alice, “we learned French and music.”\n\n“And washing?” said the Mock Turtle.\n\n“Certainly not!” said Alice indignantly.",
+        "context_ids": [
+          "alice-1865-p030-b005",
+          "alice-1865-p030-b002"
+        ],
+        "latency_ms": 158.3
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "context": "[alice-1865-p030-b005 | https://www.gutenberg.org/files/11/11-0.txt | page 30 | Chapter IX - The Mock Turtle’s Story]\n“Ten hours the first day,” said the Mock Turtle: “nine the next, and so on.”\n\n“What a curious plan!” exclaimed Alice.\n\n“That’s the reason they’re called lessons,” the Gryphon remarked: “because they lessen from day to day.”\n\nThis was quite a new idea to Alice, and she thought it over a little before she made her next remark. “Then the eleventh day must have been a holiday?”\n\n“Of course it was,” said the Mock Turtle.\n\n“And how did you manage on the twelfth?” Alice went on eagerly.\n\n“That’s enough about lessons,” the Gryphon interrupted in a very decided tone: “tell her something about the games now.”\n\n[alice-1865-p030-b002 | https://www.gutenberg.org/files/11/11-0.txt | page 30 | Chapter IX - The Mock Turtle’s Story]\n“You ought to be ashamed of yourself for asking such a simple question,” added the Gryphon; and then they both sat silent and looked at poor Alice, who felt ready to sink into the earth. At last the Gryphon said to the Mock Turtle, “Drive on, old fellow! Don’t be all day about it!” and he went on in these words:\n\n“Yes, we went to school in the sea, though you mayn’t believe it—”\n\n“I never said I didn’t!” interrupted Alice.\n\n“You did,” said the Mock Turtle.\n\n“Hold your tongue!” added the Gryphon, before Alice could speak again. The Mock Turtle went on.\n\n“We had the best of educations—in fact, we went to school every day—”\n\n“_I’ve_ been to a day-school, too,” said Alice; “you needn’t be so proud as all that.”\n\n“With extras?” asked the Mock Turtle a little anxiously.\n\n“Yes,” said Alice, “we learned French and music.”\n\n“And washing?” said the Mock Turtle.\n\n“Certainly not!” said Alice indignantly.",
+    "context_ids": [
+      "alice-1865-p030-b005",
+      "alice-1865-p030-b002"
+    ],
+    "context_chunks": [
+      {
+        "id": "alice-1865-p030-b005",
+        "text": "“Ten hours the first day,” said the Mock Turtle: “nine the next, and so on.”\n\n“What a curious plan!” exclaimed Alice.\n\n“That’s the reason they’re called lessons,” the Gryphon remarked: “because they lessen from day to day.”\n\nThis was quite a new idea to Alice, and she thought it over a little before she made her next remark. “Then the eleventh day must have been a holiday?”\n\n“Of course it was,” said the Mock Turtle.\n\n“And how did you manage on the twelfth?” Alice went on eagerly.\n\n“That’s enough about lessons,” the Gryphon interrupted in a very decided tone: “tell her something about the games now.”",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 30,
+        "metadata": {
+          "page": 30,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "IX",
+          "section": "Chapter IX - The Mock Turtle’s Story",
+          "language": "en",
+          "char_count": 5198,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter IX - The Mock Turtle’s Story",
+        "score": 0.7550962263231061,
+        "rank": 1,
+        "method": "dense"
+      },
+      {
+        "id": "alice-1865-p030-b002",
+        "text": "“You ought to be ashamed of yourself for asking such a simple question,” added the Gryphon; and then they both sat silent and looked at poor Alice, who felt ready to sink into the earth. At last the Gryphon said to the Mock Turtle, “Drive on, old fellow! Don’t be all day about it!” and he went on in these words:\n\n“Yes, we went to school in the sea, though you mayn’t believe it—”\n\n“I never said I didn’t!” interrupted Alice.\n\n“You did,” said the Mock Turtle.\n\n“Hold your tongue!” added the Gryphon, before Alice could speak again. The Mock Turtle went on.\n\n“We had the best of educations—in fact, we went to school every day—”\n\n“_I’ve_ been to a day-school, too,” said Alice; “you needn’t be so proud as all that.”\n\n“With extras?” asked the Mock Turtle a little anxiously.\n\n“Yes,” said Alice, “we learned French and music.”\n\n“And washing?” said the Mock Turtle.\n\n“Certainly not!” said Alice indignantly.",
+        "source_id": "alice-1865",
+        "source": "https://www.gutenberg.org/files/11/11-0.txt",
+        "page": 30,
+        "metadata": {
+          "page": 30,
+          "source": "https://www.gutenberg.org/files/11/11-0.txt",
+          "chapter": "IX",
+          "section": "Chapter IX - The Mock Turtle’s Story",
+          "language": "en",
+          "char_count": 5198,
+          "document_id": "alice-1865",
+          "document_type": "public_domain_book"
+        },
+        "section": "Chapter IX - The Mock Turtle’s Story",
+        "score": 0.6933571465781802,
+        "rank": 2,
+        "method": "dense"
+      }
+    ],
+    "tool_calls": 2,
+    "searches": 2,
+    "stop_reason": "empty_model_response",
+    "latency_ms": 33973.4,
+    "llm_calls": 5,
+    "usage": {
+      "prompt_tokens": 12381,
+      "completion_tokens": 1868,
+      "total_tokens": 14249,
+      "list_cost_usd": 0.0017548999999999993
+    },
+    "config": "baseline"
+  }
+]

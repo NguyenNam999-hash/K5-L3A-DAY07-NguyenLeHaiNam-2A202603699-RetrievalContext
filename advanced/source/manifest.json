@@ -1,0 +1,16 @@
+{
+  "id": "gep-june-2024",
+  "title": "Global Economic Prospects, June 2024",
+  "publisher": "World Bank",
+  "year": 2024,
+  "url": "https://openknowledge.worldbank.org/server/api/core/bitstreams/d644659c-2e22-410e-98a5-b8a40dc6c183/content",
+  "landing_page": "https://openknowledge.worldbank.org/entities/publication/b5f5a90f-3229-482f-b8c5-d3c4e9ecbad5",
+  "license": "Creative Commons Attribution 3.0 IGO (CC BY 3.0 IGO)",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/igo",
+  "citation": "World Bank. 2024. Global Economic Prospects, June 2024. Washington, DC: World Bank. doi:10.1596/978-1-4648-2058-8.",
+  "accessed_at": "2026-11-14",
+  "sha256": "c3e8651399f27ff58fae9d867d76957fb4eb40a271650b1a40ee862f33fde6a2",
+  "page_count": 220,
+  "source_file": "advanced/source/gep2024.pdf",
+  "notes": "Born-digital PDF with a text layer. Tables, vector charts, regional maps and a small number of raster images. The PDF is not committed; run fetch_document.py."
+}

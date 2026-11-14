@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-11-14T09:22:10.446637+00:00",
+  "config": "hybrid_filter",
+  "split": "dev",
+  "questions": 17,
+  "agent": {
+    "model": "deepseek-v4.1-flash",
+    "max_searches": 4,
+    "max_steps": 8,
+    "top_k": 5,
+    "budget": 4800,
+    "enable_filter": true,
+    "enable_neighbors": true
+  },
+  "retrieval": {
+    "name": "hybrid_filter",
+    "description": "Hybrid RRF + section filter, top-5",
+    "top_k": 5,
+    "budget": 4800
+  },
+  "chunks": 180,
+  "wall_seconds": 152.058,
+  "llm": {
+    "model": "deepseek-v4.1-flash",
+    "calls": 37,
+    "usage": {
+      "prompt_tokens": 105099,
+      "completion_tokens": 5209,
+      "total_tokens": 110308,
+      "list_cost_usd": 0.012436430000000002
+    }
+  },
+  "errors": 0,
+  "statuses": {
+    "answered": 15,
+    "abstain": 2,
+    "error": 0
+  },
+  "tool_calls_total": 29,
+  "usage_total": {
+    "prompt_tokens": 105099,
+    "completion_tokens": 5209,
+    "total_tokens": 110308,
+    "list_cost_usd": 0.012436430000000002
+  }
+}

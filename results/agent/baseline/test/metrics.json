@@ -1,0 +1,45 @@
+{
+  "cases": 7,
+  "provider_errors": 0,
+  "tool_use": {
+    "n": 7,
+    "N": 7
+  },
+  "tool_calls_total": 9,
+  "tool_calls_mean": 1.286,
+  "grounded_answer": {
+    "0": 0,
+    "1": 0,
+    "2": 5,
+    "N": 5,
+    "mean": 2.0
+  },
+  "citation_validity": {
+    "n": 6,
+    "N": 6
+  },
+  "answer_citation_coverage": {
+    "n": 5,
+    "N": 5
+  },
+  "abstention": {
+    "n": 2,
+    "N": 2
+  },
+  "false_abstention": {
+    "n": 0,
+    "N": 5
+  },
+  "context_grades": {
+    "0": 0,
+    "1": 1,
+    "2": 4,
+    "N": 5,
+    "mean": 1.8
+  },
+  "latency_ms_total": 93136.6,
+  "llm_calls": 21,
+  "tokens": 41716,
+  "list_cost_usd": 0.004774,
+  "latency_ms_mean": 13305.2
+}

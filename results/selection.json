@@ -1,0 +1,305 @@
+{
+  "frozen_at": "2026-11-14T09:25:36.810205+00:00",
+  "criteria": [
+    "1. Evidence Hit@3 on dev (primary retrieval quality)",
+    "2. Context Evidence Rate on dev",
+    "3. Grounded answer mean on dev (manual labels)",
+    "4. Latency and list cost as tie-breakers"
+  ],
+  "chosen_retrieval": "hybrid_filter_rerank",
+  "chosen_agent": "selected",
+  "rationale": "Hybrid + section filter + LLM rerank has the highest dev Evidence Hit@3 (15/15), the highest Hit@1 (15/15), and the highest Context Evidence Rate (15/15). The selected agent also reaches grounded-answer mean 2.00 with zero false abstentions and correct abstention on both dev unanswerable questions. Hybrid+filter is much cheaper (29 ms vs 6.7 s median retrieval) but loses one dev Hit@3, so the published primary criterion selects rerank.",
+  "dev_retrieval": {
+    "tfidf": {
+      "config": "tfidf",
+      "description": "TF-IDF cosine, top-3, no filter",
+      "split": "dev",
+      "top_k": 3,
+      "budget": 800,
+      "filters": false,
+      "n": 15,
+      "hit1": 12,
+      "hit1_rate": 0.8,
+      "hit3": 12,
+      "hit3_rate": 0.8,
+      "mrr": 0.834,
+      "context_hit": 3,
+      "context_rate": 0.2,
+      "avg_context_chars": 522.2,
+      "median_latency_ms": 0.2,
+      "llm_calls": 0,
+      "list_cost_usd": 0.0
+    },
+    "dense": {
+      "config": "dense",
+      "description": "BGE + pgvector cosine, top-3, no filter",
+      "split": "dev",
+      "top_k": 3,
+      "budget": 2400,
+      "filters": false,
+      "n": 15,
+      "hit1": 9,
+      "hit1_rate": 0.6,
+      "hit3": 12,
+      "hit3_rate": 0.8,
+      "mrr": 0.7,
+      "context_hit": 12,
+      "context_rate": 0.8,
+      "avg_context_chars": 1984.6,
+      "median_latency_ms": 30.0,
+      "llm_calls": 0,
+      "list_cost_usd": 0.0
+    },
+    "bm25": {
+      "config": "bm25",
+      "description": "BM25, top-3, no filter",
+      "split": "dev",
+      "top_k": 3,
+      "budget": 2400,
+      "filters": false,
+      "n": 15,
+      "hit1": 13,
+      "hit1_rate": 0.8667,
+      "hit3": 13,
+      "hit3_rate": 0.8667,
+      "mrr": 0.8967,
+      "context_hit": 13,
+      "context_rate": 0.8667,
+      "avg_context_chars": 2018.7,
+      "median_latency_ms": 0.9,
+      "llm_calls": 0,
+      "list_cost_usd": 0.0
+    },
+    "hybrid": {
+      "config": "hybrid",
+      "description": "Dense + BM25 RRF, top-3, no filter",
+      "split": "dev",
+      "top_k": 3,
+      "budget": 4800,
+      "filters": false,
+      "n": 15,
+      "hit1": 12,
+      "hit1_rate": 0.8,
+      "hit3": 13,
+      "hit3_rate": 0.8667,
+      "mrr": 0.8633,
+      "context_hit": 15,
+      "context_rate": 1.0,
+      "avg_context_chars": 4428.3,
+      "median_latency_ms": 27.8,
+      "llm_calls": 0,
+      "list_cost_usd": 0.0
+    },
+    "dense_filter": {
+      "config": "dense_filter",
+      "description": "Dense + section filter inferred from explicit chapter mention",
+      "split": "dev",
+      "top_k": 3,
+      "budget": 2400,
+      "filters": true,
+      "n": 15,
+      "hit1": 9,
+      "hit1_rate": 0.6,
+      "hit3": 13,
+      "hit3_rate": 0.8667,
+      "mrr": 0.75,
+      "context_hit": 13,
+      "context_rate": 0.8667,
+      "avg_context_chars": 2000.7,
+      "median_latency_ms": 26.2,
+      "llm_calls": 0,
+      "list_cost_usd": 0.0
+    },
+    "hybrid_filter": {
+      "config": "hybrid_filter",
+      "description": "Hybrid RRF + section filter, top-5",
+      "split": "dev",
+      "top_k": 5,
+      "budget": 4800,
+      "filters": true,
+      "n": 15,
+      "hit1": 13,
+      "hit1_rate": 0.8667,
+      "hit3": 14,
+      "hit3_rate": 0.9333,
+      "mrr": 0.9022,
+      "context_hit": 15,
+      "context_rate": 1.0,
+      "avg_context_chars": 4373.6,
+      "median_latency_ms": 29.0,
+      "llm_calls": 0,
+      "list_cost_usd": 0.0
+    },
+    "hybrid_filter_rerank": {
+      "config": "hybrid_filter_rerank",
+      "description": "Hybrid RRF top-20 + LLM listwise rerank + section filter, top-6",
+      "split": "dev",
+      "top_k": 6,
+      "budget": 6000,
+      "filters": true,
+      "n": 15,
+      "hit1": 15,
+      "hit1_rate": 1.0,
+      "hit3": 15,
+      "hit3_rate": 1.0,
+      "mrr": 1.0,
+      "context_hit": 15,
+      "context_rate": 1.0,
+      "avg_context_chars": 5651.5,
+      "median_latency_ms": 6673.9,
+      "llm_calls": 15,
+      "list_cost_usd": 0.0
+    }
+  },
+  "dev_agent": {
+    "baseline": {
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "tool_calls_total": 23,
+      "tool_calls_mean": 1.353,
+      "grounded_answer": {
+        "0": 2,
+        "1": 0,
+        "2": 13,
+        "N": 15,
+        "mean": 1.7333
+      },
+      "citation_validity": {
+        "n": 14,
+        "N": 14
+      },
+      "answer_citation_coverage": {
+        "n": 13,
+        "N": 13
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 2,
+        "N": 15
+      },
+      "context_grades": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "N": 0,
+        "mean": null
+      },
+      "latency_ms_total": 221479.9,
+      "llm_calls": 50,
+      "tokens": 100405,
+      "list_cost_usd": 0.01104,
+      "latency_ms_mean": 13028.2
+    },
+    "hybrid_filter": {
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "tool_calls_total": 29,
+      "tool_calls_mean": 1.706,
+      "grounded_answer": {
+        "0": 0,
+        "1": 0,
+        "2": 15,
+        "N": 15,
+        "mean": 2.0
+      },
+      "citation_validity": {
+        "n": 15,
+        "N": 15
+      },
+      "answer_citation_coverage": {
+        "n": 15,
+        "N": 15
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15
+      },
+      "context_grades": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "N": 0,
+        "mean": null
+      },
+      "latency_ms_total": 152029.10000000003,
+      "llm_calls": 37,
+      "tokens": 110308,
+      "list_cost_usd": 0.012436,
+      "latency_ms_mean": 8942.9
+    },
+    "selected": {
+      "cases": 17,
+      "provider_errors": 0,
+      "tool_use": {
+        "n": 17,
+        "N": 17
+      },
+      "tool_calls_total": 36,
+      "tool_calls_mean": 2.118,
+      "grounded_answer": {
+        "0": 0,
+        "1": 0,
+        "2": 15,
+        "N": 15,
+        "mean": 2.0
+      },
+      "citation_validity": {
+        "n": 17,
+        "N": 17
+      },
+      "answer_citation_coverage": {
+        "n": 15,
+        "N": 15
+      },
+      "abstention": {
+        "n": 2,
+        "N": 2
+      },
+      "false_abstention": {
+        "n": 0,
+        "N": 15
+      },
+      "context_grades": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "N": 0,
+        "mean": null
+      },
+      "latency_ms_total": 801908.4,
+      "llm_calls": 75,
+      "tokens": 388306,
+      "list_cost_usd": 0.064771,
+      "latency_ms_mean": 47171.1
+    }
+  },
+  "test_split_frozen": true,
+  "test_ids": [
+    "t01",
+    "t02",
+    "t03",
+    "t04",
+    "t05",
+    "u03",
+    "u04"
+  ],
+  "test_benchmark_sha256": "335bb122ff7d0967b9ca1cab0c6fed08399027e8870f38544497c8a92e61d9d3",
+  "test_results_seen_at_freeze": false,
+  "test_results_file": "results/test_execution.json",
+  "post_freeze_note": "Test was executed after this freeze; see test_results_file. No test-driven retuning was performed."
+}

@@ -1,5 +1,7 @@
 # Báo cáo Day 7
 
+Họ và tên: Nguyễn Lê Hải Nam · MSSV: 2A202603699 · Lớp: L3A
+
 ## Dữ liệu và benchmark
 
 - Nguồn, quyền sử dụng, số trang và số chunk:

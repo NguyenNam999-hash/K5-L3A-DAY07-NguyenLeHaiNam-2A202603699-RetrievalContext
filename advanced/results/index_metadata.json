@@ -1,0 +1,14 @@
+{
+  "embedding_model": "BAAI/bge-base-en-v1.5",
+  "dimensions": 768,
+  "chunks": 359,
+  "counts_by_type": {
+    "text": 249,
+    "table": 38,
+    "chart": 65,
+    "image": 7
+  },
+  "embedding_seconds": 153.94,
+  "store": "PostgreSQL + pgvector, table advanced_chunks, cosine exact scan",
+  "indexed_count": 359
+}

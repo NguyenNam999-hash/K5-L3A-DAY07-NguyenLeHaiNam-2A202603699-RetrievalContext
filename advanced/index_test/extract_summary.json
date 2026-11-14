@@ -1,0 +1,25 @@
+{
+  "pdf_pages": 220,
+  "processed_pages": 1,
+  "pages_with_text": 1,
+  "pages_with_tables": 1,
+  "pages_with_figures": 0,
+  "tables": 1,
+  "figures": 0,
+  "chunks": 5,
+  "chunks_by_type": {
+    "text": 4,
+    "table": 1,
+    "chart": 0,
+    "image": 0
+  },
+  "skipped": [],
+  "vision_calls": 0,
+  "vision_usage": {
+    "prompt_tokens": 0,
+    "completion_tokens": 0,
+    "total_tokens": 0,
+    "list_cost_usd": 0.0
+  },
+  "elapsed_note": "Extraction is deterministic except vision descriptions, cached under advanced/cache/vision."
+}

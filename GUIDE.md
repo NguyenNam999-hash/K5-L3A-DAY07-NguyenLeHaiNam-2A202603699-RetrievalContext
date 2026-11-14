@@ -2,7 +2,7 @@
 
 ## 1. Chuẩn bị
 
-Dùng lại chunk, ID, nguồn, vector store và embedding model Day 6. Ghi phiên bản model, số chiều và cách kết nối. Query embedding phải tương thích với index; nếu đổi embedding model, tạo index tương ứng và ghi chi phí. Nếu chưa hoàn thành Day 6, chuẩn bị dữ liệu, embedding thật và vector store trước; không dùng vector ngẫu nhiên để đánh giá.
+Dùng lại chunk, ID, nguồn, vector store và embedding model Day 6 (sử dụng chiến lược chunk c: B + section filter do chiến lược chunk c có các chỉ số kết quả cao hơn). Ghi phiên bản model, số chiều và cách kết nối. Query embedding phải tương thích với index; nếu đổi embedding model, tạo index tương ứng và ghi chi phí. Nếu chưa hoàn thành Day 6, chuẩn bị dữ liệu, embedding thật và vector store trước; không dùng vector ngẫu nhiên để đánh giá.
 
 Chọn tập tài liệu đủ đa dạng; nếu tự chuẩn bị từ đầu, dùng ít nhất 30 trang nội dung hợp lệ. Tạo benchmark theo [BENCHMARK.md](BENCHMARK.md); không đưa gold vào agent hoặc retrieval.
 

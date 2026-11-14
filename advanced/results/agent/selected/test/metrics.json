@@ -1,0 +1,53 @@
+{
+  "split": "test",
+  "total": 30,
+  "passed": 28,
+  "failed": 2,
+  "rate": 0.9333,
+  "threshold": 0.9,
+  "meets_threshold": true,
+  "groups": {
+    "table": {
+      "passed": 6,
+      "total": 6,
+      "rate": 1.0
+    },
+    "image": {
+      "passed": 5,
+      "total": 5,
+      "rate": 1.0
+    },
+    "chart": {
+      "passed": 5,
+      "total": 5,
+      "rate": 1.0
+    },
+    "multi_hop": {
+      "passed": 3,
+      "total": 4,
+      "rate": 0.75
+    },
+    "text": {
+      "passed": 3,
+      "total": 4,
+      "rate": 0.75
+    },
+    "unanswerable": {
+      "passed": 6,
+      "total": 6,
+      "rate": 1.0
+    }
+  },
+  "answerable": {
+    "passed": 22,
+    "total": 24
+  },
+  "unanswerable": {
+    "passed": 6,
+    "total": 6
+  },
+  "errors": 0,
+  "latency_ms_mean": 63313.0,
+  "tokens": 2265158,
+  "list_cost_usd": 0.253435
+}

@@ -1,0 +1,110 @@
+[
+  {
+    "id": "ad-t01",
+    "split": "dev",
+    "group": "table",
+    "answerable": true
+  },
+  {
+    "id": "ad-t02",
+    "split": "dev",
+    "group": "table",
+    "answerable": true
+  },
+  {
+    "id": "ad-t03",
+    "split": "dev",
+    "group": "table",
+    "answerable": true
+  },
+  {
+    "id": "ad-t04",
+    "split": "dev",
+    "group": "table",
+    "answerable": true
+  },
+  {
+    "id": "ad-i01",
+    "split": "dev",
+    "group": "image",
+    "answerable": true
+  },
+  {
+    "id": "ad-i02",
+    "split": "dev",
+    "group": "image",
+    "answerable": true
+  },
+  {
+    "id": "ad-c01",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true
+  },
+  {
+    "id": "ad-c02",
+    "split": "dev",
+    "group": "chart",
+    "answerable": true
+  },
+  {
+    "id": "ad-x01",
+    "split": "dev",
+    "group": "text",
+    "answerable": true
+  },
+  {
+    "id": "ad-x02",
+    "split": "dev",
+    "group": "text",
+    "answerable": true
+  },
+  {
+    "id": "ad-x03",
+    "split": "dev",
+    "group": "text",
+    "answerable": true
+  },
+  {
+    "id": "ad-x04",
+    "split": "dev",
+    "group": "text",
+    "answerable": true
+  },
+  {
+    "id": "ad-x05",
+    "split": "dev",
+    "group": "text",
+    "answerable": true
+  },
+  {
+    "id": "ad-m01",
+    "split": "dev",
+    "group": "multi_hop",
+    "answerable": true
+  },
+  {
+    "id": "ad-m02",
+    "split": "dev",
+    "group": "multi_hop",
+    "answerable": true
+  },
+  {
+    "id": "au01",
+    "split": "dev",
+    "group": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "au02",
+    "split": "dev",
+    "group": "unanswerable",
+    "answerable": false
+  },
+  {
+    "id": "au03",
+    "split": "dev",
+    "group": "unanswerable",
+    "answerable": false
+  }
+]

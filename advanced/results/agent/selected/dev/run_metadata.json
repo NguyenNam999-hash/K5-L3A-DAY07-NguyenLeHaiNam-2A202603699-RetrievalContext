@@ -1,0 +1,48 @@
+{
+  "generated_at": "2026-11-14T10:37:50.725108+00:00",
+  "config": "selected",
+  "split": "dev",
+  "questions": 18,
+  "groups": {
+    "chart": 2,
+    "image": 2,
+    "multi_hop": 2,
+    "table": 4,
+    "text": 5,
+    "unanswerable": 3
+  },
+  "retrieval": {
+    "name": "hybrid_rerank",
+    "kind": "hybrid_rerank",
+    "top_k": 8,
+    "budget": 14000,
+    "description": "Hybrid RRF top-24 + LLM listwise rerank, top-8"
+  },
+  "agent": {
+    "model": "deepseek-v4.1-flash",
+    "max_searches": 6,
+    "max_steps": 14,
+    "top_k": 8,
+    "budget": 14000,
+    "content_type_filter": true,
+    "get_page": true
+  },
+  "index_chunks": 359,
+  "wall_seconds": 1033.819,
+  "llm": {
+    "model": "deepseek-v4.1-flash",
+    "calls": 105,
+    "usage": {
+      "prompt_tokens": 1122238,
+      "completion_tokens": 57653,
+      "total_tokens": 1179891,
+      "list_cost_usd": 0.13938575
+    }
+  },
+  "statuses": {
+    "answered": 15,
+    "abstain": 3,
+    "error": 0
+  },
+  "tool_calls_total": 55
+}

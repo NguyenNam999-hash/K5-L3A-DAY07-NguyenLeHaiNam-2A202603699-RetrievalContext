@@ -1,0 +1,46 @@
+{
+  "generated_at": "2026-11-14T09:34:44.093098+00:00",
+  "config": "selected",
+  "split": "test",
+  "questions": 7,
+  "agent": {
+    "model": "deepseek-v4.1-flash",
+    "max_searches": 5,
+    "max_steps": 10,
+    "top_k": 6,
+    "budget": 6000,
+    "enable_filter": true,
+    "enable_neighbors": true
+  },
+  "retrieval": {
+    "name": "hybrid_filter_rerank",
+    "description": "Hybrid RRF top-20 + LLM listwise rerank + section filter, top-6",
+    "top_k": 6,
+    "budget": 6000
+  },
+  "chunks": 180,
+  "wall_seconds": 190.899,
+  "llm": {
+    "model": "deepseek-v4.1-flash",
+    "calls": 29,
+    "usage": {
+      "prompt_tokens": 126622,
+      "completion_tokens": 9628,
+      "total_tokens": 136250,
+      "list_cost_usd": 0.01739426
+    }
+  },
+  "errors": 0,
+  "statuses": {
+    "answered": 6,
+    "abstain": 1,
+    "error": 0
+  },
+  "tool_calls_total": 14,
+  "usage_total": {
+    "prompt_tokens": 126622,
+    "completion_tokens": 9628,
+    "total_tokens": 136250,
+    "list_cost_usd": 0.01739426
+  }
+}

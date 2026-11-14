@@ -1,0 +1,67 @@
+[
+  {
+    "query_id": "t01",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "AI draft; student verification pending",
+    "rationale": "Answer states the expected fact; each cited chunk contains the supporting passage.",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "t02",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "AI draft; student verification pending",
+    "rationale": "Answer states the expected fact; each cited chunk contains the supporting passage.",
+    "answer_grade": 2,
+    "context_grade": 1
+  },
+  {
+    "query_id": "t03",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "AI draft; student verification pending",
+    "rationale": "Answer states the expected fact; each cited chunk contains the supporting passage.",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "t04",
+    "citation_support": [
+      true
+    ],
+    "reviewer": "AI draft; student verification pending",
+    "rationale": "Answer states the expected fact; each cited chunk contains the supporting passage.",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "t05",
+    "citation_support": [
+      true,
+      true
+    ],
+    "reviewer": "AI draft; student verification pending",
+    "rationale": "Answer states the expected fact; each cited chunk contains the supporting passage.",
+    "answer_grade": 2,
+    "context_grade": 2
+  },
+  {
+    "query_id": "u03",
+    "citation_support": [],
+    "reviewer": "AI draft; student verification pending",
+    "rationale": "Agent abstained without unsupported claims.",
+    "abstention_correct": true
+  },
+  {
+    "query_id": "u04",
+    "citation_support": [],
+    "reviewer": "AI draft; student verification pending",
+    "rationale": "Agent abstained without unsupported claims.",
+    "abstention_correct": true
+  }
+]

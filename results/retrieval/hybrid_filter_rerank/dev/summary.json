@@ -1,0 +1,20 @@
+{
+  "config": "hybrid_filter_rerank",
+  "description": "Hybrid RRF top-20 + LLM listwise rerank + section filter, top-6",
+  "split": "dev",
+  "top_k": 6,
+  "budget": 6000,
+  "filters": true,
+  "n": 15,
+  "hit1": 15,
+  "hit1_rate": 1.0,
+  "hit3": 15,
+  "hit3_rate": 1.0,
+  "mrr": 1.0,
+  "context_hit": 15,
+  "context_rate": 1.0,
+  "avg_context_chars": 5558.5,
+  "median_latency_ms": 7253.5,
+  "llm_calls": 15,
+  "list_cost_usd": 0.005083
+}
