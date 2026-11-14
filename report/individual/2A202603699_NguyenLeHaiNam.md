@@ -8,25 +8,36 @@ Họ và tên: Nguyễn Lê Hải Nam · MSSV: 2A202603699 · Lớp: L3A
   Project Gutenberg eBook #11 (`https://www.gutenberg.org/files/11/11-0.txt`), public domain tại
   Hoa Kỳ, dùng theo Project Gutenberg License. Snapshot và hash nằm trong
   `data/day6/source_manifest.json`; kế thừa từ Day 6.
+  
 - **Số trang/chunk:** 39 đơn vị nội dung, 142.777 ký tự; dùng **chiến lược C** của Day 6
   (paragraph ≤1.000 ký tự + metadata `section`), **180 chunk**. ID, `source`, `page`,
   `section` được giữ nguyên. Bản export Day 7: `data/day6/chunks_c.json`.
+
+  
 - **Vector store/embedding:** PostgreSQL 16 + pgvector, bảng `chunks`, metric cosine, exact
   scan (không ANN); `BAAI/bge-base-en-v1.5`, 768 chiều, FastEmbed/ONNX chạy local.
   Query dùng `query_embed` của cùng model. Snapshot local được kiểm tra parity top-10 với
   pgvector trên 5 câu dev (`scripts/check_store_parity.py`).
+
+  
 - **Agent model:** `deepseek-v4.1-flash` qua endpoint OpenAI-compatible trong `.env`
   (cần header `x-opencode-session`). Temperature 0.
+
+  
 - **Chia dev/test:** 24 câu trong `benchmark/questions.json`:
   - dev: `q01–q15` (15 câu có đáp án, kế thừa Day 6) + `u01–u02` (2 câu thiếu evidence).
   - test: `t01–t05` (5 câu mới, lấy từ các trang Day 6 không dùng ở dev) + `u03–u04`
     (2 câu thiếu evidence).
   - Không dùng lại `q16–q20` của Day 6 vì bộ đó đã được xem trong Day 6.
+
+
 - **Cách xác định câu có/thiếu evidence:** câu có đáp án có `gold` gồm `source_id`, `page`,
   `evidence`; `benchmark/verify_benchmark.py` kiểm tra evidence là substring nguyên văn
   trong chunk đúng nguồn/trang. Câu thiếu evidence có `answerable=false`,
   `expected_behavior=search_and_abstain`, `absence_reason` và các regex `absence_checks`
   không khớp toàn corpus.
+
+  
 - **Tiêu chí chấm:** retrieval dùng Hit@1/Evidence Hit@3 với evidence nằm trọn trong chunk
   đúng nguồn/trang; context dùng Context Evidence Rate; agent dùng grounded 0/1/2,
   citation support, abstention và false abstention.
@@ -77,14 +88,22 @@ báo cáo giữ nguyên thay vì đổi test.
 - **Tool:** `search` (dense/BM25/hybrid/rerank theo cấu hình), `get_neighbors`
   (cùng trang), `list_sections`, `finalize`. Agent có thể search nhiều lượt; mỗi lượt lưu
   query, filter, top-k, kết quả, context và context IDs.
+
+  
 - **Điều kiện dừng:** `finalize`; hoặc giới hạn search (baseline 2, hybrid 4, selected 5);
   hoặc max steps (5/8/10). Khi hết lượt, agent phải trả lời từ context hiện có.
+
+  
 - **Chọn context:** dedupe theo chunk ID, ưu tiên round-robin giữa các lượt search, header
   `[id | source | page | section]`, budget ký tự. `get_neighbors` thêm chunk lân cận cùng
   trang. Baseline 2.400 ký tự; hybrid 4.800; selected 6.000.
+
+  
 - **Citation:** mọi citation phải nằm trong context **và** xuất hiện dạng `[chunk-id]`
   trong câu trả lời; sai thì sửa một lần, vẫn sai thì abstain. Agent cũng abstain khi
   `insufficient=true`, context rỗng, hoặc câu trả lời có ngôn ngữ từ chối rõ ràng.
+
+  
 - **Lỗi:** provider/store exception không bị nuốt; runner ghi `status=error` kèm traceback
   và báo riêng.
 
@@ -106,12 +125,18 @@ báo cáo giữ nguyên thay vì đổi test.
 
 - **Trace/nhãn/lệnh chạy:** `results/agent/<config>/<split>/traces.json`, `cases.json`,
   `reviews.json`, `metrics.json`; tổng hợp tại `results/analysis.md`.
+
+  
 - **Thời gian/chi phí:** test baseline 13,3 s/câu, 41.716 token, $0,004774; selected
   27,3 s/câu, 136.250 token, $0,017394. Dev selected 47,2 s/câu do rerank lặp theo từng
   search. Đây là list cost của endpoint; gói hiện tại có thể hiển thị $0.
+
+  
 - **Kết quả trước/sau:** baseline dev grounded 1,733, false abstention 2/15; hybrid+filter
   và selected đều 2,000, false abstention 0/15. Trên test, baseline rẻ hơn và abstention
   tốt hơn; selected chỉ hơn context. Đánh đổi chính là chi phí/latency lấy ranking.
+
+  
 - **Giới hạn:** 24 câu, test 5 câu có đáp án; nhãn do AI soạn nháp, sinh viên cần duyệt;
   u03 mơ hồ; rerank dùng cùng model với agent; một tài liệu/ngôn ngữ; chưa đo nhiều lần
   chạy; kết quả gắn với snapshot và model version hiện tại.
@@ -121,6 +146,8 @@ báo cáo giữ nguyên thay vì đổi test.
 - **Tài liệu, nguồn, quyền sử dụng:** World Bank, *Global Economic Prospects, June 2024*,
   220 trang, CC BY 3.0 IGO; manifest/hash ở `advanced/source/manifest.json`. PDF không
   commit; tải và kiểm SHA-256 bằng `advanced/scripts/fetch_document.py`.
+
+  
 - **Xử lý text, bảng, ảnh, biểu đồ:** 220/220 trang được xử lý; 194 trang có text layer
   (26 trang bìa/mục lục/trống). 31 trang có bảng → 38 bảng Markdown + cell rows; 72 trang
   có figure → 65 chart description bằng vision + 7 image/map (6 locator map mô tả thủ công,
@@ -128,6 +155,8 @@ báo cáo giữ nguyên thay vì đổi test.
   `63 .`). Chunk: 359 (249 text, 38 table, 65 chart, 7 image); index pgvector bảng
   `advanced_chunks`, BGE 768 chiều. Phần chưa xử lý: trang không có text, một số bảng
   merged cell và nhãn nhỏ trong chart có thể bị bỏ sót.
+
+  
 - **Chia benchmark và model:** dev 15 answerable + 3 unanswerable; test 24 answerable
   (6 table, 5 image, 5 chart, 4 multi-hop, 4 text) + 6 unanswerable. Test hash chốt trước
   khi chạy. Pipeline chốt trên dev: dense/hybrid + content-type filter + get_page + rerank,
@@ -145,9 +174,13 @@ báo cáo giữ nguyên thay vì đổi test.
 
 - **Trace, nhãn, evidence:** `advanced/results/agent/selected/test/traces.json`,
   `reviews.json`, `metrics.json`; phân tích chi tiết ở `advanced/results/analysis.md`.
+
+  
 - **Thời gian, chi phí, lỗi:** test trung bình 63,3 giây/câu, 2.265.158 token, list cost
   $0,2534; 0 lỗi provider. Hai lỗi đều là citation/format (at-x01, at-m04), không phải
   thiếu evidence; giữ nguyên fail, không sửa test hay rerun để tăng điểm.
+
+  
 - **Giới hạn, tái lập:** một tài liệu/layout; 32 bảng còn lại chưa audit từng ô; 60 chart
   chưa kiểm tra từng giá trị; map mô tả thủ công; vision có thể bỏ nhãn nhỏ. Cách chạy đầy
   đủ trong `advanced/README.md`.
